@@ -4,10 +4,11 @@ const bcrypt = require("bcrypt");
 const User = require("../models/User");
 
 exports.login = async (req, res) => {
-  const { email, password } = req.body;
-  console.log({ email, password });
+  const { username, password } = req.body;
+  console.log({ username, password });
   try {
-    const existingUser = await User.findOne({ email });
+    const existingUser = await User.findOne({ username });
+
     if (!existingUser)
       return res.status(400).json({ message: "User doesn't exist" });
     const existingPassword = await bcrypt.compare(
@@ -17,7 +18,10 @@ exports.login = async (req, res) => {
     if (!existingPassword)
       return res.status(400).json({ message: "Invalid password" });
     const token = jwt.sign(
-      { email: existingUser.email, id: existingUser._id },
+      {
+        username: existingUser.username,
+        id: existingUser._id,
+      },
       process.env.JWT_SECRET,
       { expiresIn: "360d" }
     );
@@ -33,8 +37,13 @@ exports.register = async (req, res) => {
   try {
     const userData = { ...req.body };
     console.log(userData);
-    const existingUser = await User.findOne({ email: userData.email });
-    if (existingUser)
+    const existingUser = await User.findOne({
+      email: userData.email,
+    });
+    const existingUserName = await User.findOne({
+      username: userData.username,
+    });
+    if (existingUser || existingUserName)
       return res
         .status(401)
         .json({ message: "User with this email already exists!" });
@@ -43,7 +52,7 @@ exports.register = async (req, res) => {
       userData.password = await bcrypt.hash(userData.password, salt);
       const user = await User.create(userData);
       const token = jwt.sign(
-        { email: user.email, id: user._id },
+        { email: user.email, username: user.username, id: user._id },
         process.env.JWT_SECRET,
         {
           expiresIn: "360d",
