@@ -1,12 +1,10 @@
 const mongoose = require("mongoose");
-const Brands = require("../models/Brands");
+const Brands = require("../restaurants.json");
 const Reviews = require("../models/Reviews");
 
-exports.getAllBrands = async function (req, res, next) {
+exports.getAllBrands = async (req, res, next) => {
   try {
-    const brands = await Brands.find();
-
-    res.status(200).json(brands);
+    res.status(200).json(Brands);
   } catch (e) {
     res.status(404).json({ message: e.message });
   }
