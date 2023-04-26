@@ -2,8 +2,9 @@
   {
     "name": "Arcadian Cafe Signature",
     "image": "https://media-cdn.tripadvisor.com/media/photo-f/0e/e2/53/78/sliced-beef-burger.jpg",
-    "rating": "4 of 5 bubbles",
+    "rating": "4 ",
     "address": "Abdul Haque Road Shop G-19, Emporium Mall",
+    "cuisines": "Italian, French, Chinese, Thai, Fusion",
     "reviews": [
       {
         "reviewerName": "963s_renh",
@@ -94,8 +95,9 @@
   {
     "name": "Big Moe's Diner Emporium",
     "image": "https://media-cdn.tripadvisor.com/media/photo-i/0f/4f/31/21/big-moe-s-lahore.jpg",
-    "rating": "4.5 of 5 bubbles",
+    "rating": "4.5 ",
     "address": "Emporium Mall, Johar Town 210 Second Floor",
+    "cuisines": "American, Diner",
     "reviews": [
       {
         "reviewerName": "GoharI",
@@ -192,8 +194,9 @@
   {
     "name": "Blackstone - The Elite",
     "image": "https://media-cdn.tripadvisor.com/media/photo-i/1c/73/44/0f/trilogy-umbrella-outdoor.jpg",
-    "rating": "5 of 5 bubbles",
+    "rating": "5 ",
     "address": "244 25, Near Emporium Mall Block L Phase 2 Johar Town,",
+    "cuisines": "Chinese, Fast Food, International, Asian, Middle Eastern",
     "reviews": [
       {
         "reviewerName": "Usman-Shahhhh",
@@ -212,8 +215,9 @@
   {
     "name": "Alletto",
     "image": "https://media-cdn.tripadvisor.com/media/photo-i/25/0f/5d/e2/best.jpg",
-    "rating": "5 of 5 bubbles",
+    "rating": "5 ",
     "address": "Emporium Mall Adjacent to Lahore International Expo Centre، Abdul Haque Rd",
+    "cuisines": "Cafe",
     "reviews": [
       {
         "reviewerName": "muhammadkP5619MA",
@@ -225,8 +229,9 @@
   },
   {
     "name": "Pizza Hut Emporium Mall",
-    "rating": "4 of 5 bubbles",
+    "rating": "4 ",
     "address": "2nd Floor Emporium Mall, Johar Town",
+    "cuisines": "Pizza",
     "reviews": [
       {
         "reviewerName": "B3NB3NB3N",
@@ -245,8 +250,9 @@
   {
     "name": "Homemade Cuisine",
     "image": "https://media-cdn.tripadvisor.com/media/photo-i/1c/31/75/d4/our-new-outlet.jpg",
-    "rating": "5 of 5 bubbles",
+    "rating": "5 ",
     "address": "# 1 272/H2 Opposite Emporium Mall Gate Johar Town",
+    "cuisines": "Fast Food, Pakistani",
     "reviews": [
       {
         "reviewerName": "maddim319",
@@ -343,8 +349,9 @@
   {
     "name": "Pablo's",
     "image": "https://media-cdn.tripadvisor.com/media/photo-i/1c/cf/b5/4e/extra-cheese.jpg",
-    "rating": "5 of 5 bubbles",
+    "rating": "5 ",
     "address": "7 Civic Centre, Block D 2 Phase 1 Johar Town",
+    "cuisines": "American, Fast Food, Healthy, Pizza",
     "reviews": [
       {
         "reviewerName": "rabeetahsan",
@@ -441,17 +448,20 @@
   {
     "name": "Pizza Max",
     "address": "Shop F & B 203-A Emporium Mall Johar Town",
+    "cuisines": "Pizza",
     "reviews": []
   },
   {
     "name": "Papa John's Pizza",
     "address": "Shop 212, Food Court, Emporium Mall",
+    "cuisines": "Pizza",
     "reviews": []
   },
   {
     "name": "Panini'z",
-    "rating": "4 of 5 bubbles",
+    "rating": "4 ",
     "address": "Johar Town",
+    "cuisines": "Italian, Fast Food, Pizza",
     "reviews": [
       {
         "reviewerName": "AqeelMaqbool",
@@ -541,8 +551,9 @@
   {
     "name": "Lani's Kitchen Chinese Restaurant",
     "image": "https://media-cdn.tripadvisor.com/media/photo-i/1c/66/71/9d/lani-s-kitchen-chinese.jpg",
-    "rating": "5 of 5 bubbles",
+    "rating": "5 ",
     "address": "14 D-3 Wapda Main Blvd Wapda Town Lahore",
+    "cuisines": "Chinese",
     "reviews": [
       {
         "reviewerName": "427taijas",
@@ -561,8 +572,9 @@
   {
     "name": "Sashas",
     "image": "https://media-cdn.tripadvisor.com/media/photo-i/17/eb/9e/00/great-food.jpg",
-    "rating": "4.5 of 5 bubbles",
+    "rating": "4.5 ",
     "address": "Main Boulevard Shop 4, Mall 94",
+    "cuisines": "Cafe, Central Asian",
     "reviews": [
       {
         "reviewerName": "trytheplate",
@@ -581,8 +593,9 @@
   {
     "name": "Ravi Restaurant",
     "image": "https://media-cdn.tripadvisor.com/media/photo-f/07/d5/95/fe/ravi-restaurant.jpg",
-    "rating": "3.5 of 5 bubbles",
+    "rating": "3.5 ",
     "address": "Maulana Shaukat Ali Road",
+    "cuisines": "Chinese, Internation, Barbecue",
     "reviews": [
       {
         "reviewerName": "Quest348846",
@@ -655,8 +668,9 @@
   {
     "name": "Gloria Jean's Coffee",
     "image": "https://media-cdn.tripadvisor.com/media/photo-i/10/0a/05/62/a-nice-caffe-in-easy.jpg",
-    "rating": "3 of 5 bubbles",
+    "rating": "3 ",
     "address": "Main Boulevard Johar Town",
+    "cuisines": "Bar, Cafe, Pub",
     "reviews": [
       {
         "reviewerName": "girlsontour10",
@@ -711,8 +725,9 @@
   {
     "name": "Caspian Sea",
     "image": "https://media-cdn.tripadvisor.com/media/photo-i/0e/7c/3b/ba/when-i-vist-restaurat.jpg",
-    "rating": "5 of 5 bubbles",
+    "rating": "5 ",
     "address": "76- G II, Canal Bank Road Block G 2 Phase 2",
+    "cuisines": "Middle Eastern, Pakistani",
     "reviews": [
       {
         "reviewerName": "AsifQureshi2018",
@@ -749,8 +764,9 @@
   {
     "name": "Coffee Planet",
     "image": "https://media-cdn.tripadvisor.com/media/photo-i/1a/4e/19/cc/img-20191202-214423-largejpg.jpg",
-    "rating": "4 of 5 bubbles",
+    "rating": "4 ",
     "address": "66 R1 Main Blvd",
+    "cuisines": "Cafe",
     "reviews": [
       {
         "reviewerName": "rushdaamjad",
@@ -763,8 +779,9 @@
   {
     "name": "Lalafy Eatery",
     "image": "https://media-cdn.tripadvisor.com/media/photo-i/1b/c6/4e/99/lalafy-eatery.jpg",
-    "rating": "5 of 5 bubbles",
+    "rating": "5 ",
     "address": "2 884-R1 Khayaban-E-Firdousi, Block R 1 Phase",
+    "cuisines": "Italian, French, American, Portuguese",
     "reviews": [
       {
         "reviewerName": "subhan1120",
@@ -819,8 +836,9 @@
   {
     "name": "Monal Lahore",
     "image": "https://media-cdn.tripadvisor.com/media/photo-i/0c/e5/f7/29/had-a-memorable-dinner.jpg",
-    "rating": "4.5 of 5 bubbles",
+    "rating": "4.5 ",
     "address": "Park and Ride Plaza, Liberty Roundabout",
+    "cuisines": "Barbecue, Asian, Pakistani",
     "reviews": [
       {
         "reviewerName": "TerrellN_12",
@@ -3509,8 +3527,9 @@
   {
     "name": "Gusto",
     "image": "https://media-cdn.tripadvisor.com/media/photo-i/0c/93/17/de/gusto.jpg",
-    "rating": "4 of 5 bubbles",
+    "rating": "4 ",
     "address": "Chowk Shadewal, Johar Town Lahore",
+    "cuisines": "Chinese, Cafe, Thai, Italian",
     "reviews": [
       {
         "reviewerName": "327sajidab",
@@ -3553,8 +3572,9 @@
   {
     "name": "Manhattan Bites Pizza",
     "image": "https://media-cdn.tripadvisor.com/media/photo-i/0c/79/e2/1d/photo0jpg.jpg",
-    "rating": "4 of 5 bubbles",
+    "rating": "4 ",
     "address": "41 Abul Hassan Isfahani Road Faisal Town",
+    "cuisines": "Pizza",
     "reviews": [
       {
         "reviewerName": "124ssm",
@@ -3627,8 +3647,9 @@
   {
     "name": "Bayzel The Restaurant",
     "image": "https://media-cdn.tripadvisor.com/media/photo-i/16/9d/d5/55/bayzel-the-restaurant.jpg",
-    "rating": "5 of 5 bubbles",
+    "rating": "5 ",
     "address": "01 GCP Opposite PCSIR II Society Near Shaukat Khanum Hospital Johar Town Lahore Pakistan Abdalian Society Service Lane",
+    "cuisines": "Chinese, Asian, Middle Eastern, Pakistani, Arabic",
     "reviews": [
       {
         "reviewerName": "bunty0032019",
@@ -3641,8 +3662,9 @@
   {
     "name": "Maalga",
     "image": "https://media-cdn.tripadvisor.com/media/photo-i/0e/27/fe/14/photo0jpg.jpg",
-    "rating": "4 of 5 bubbles",
+    "rating": "4 ",
     "address": "2 916 - R1 Khayaban-E-Firdousi, Block R1 Block R 1 Phase Johar Town",
+    "cuisines": "Middle Eastern, Afghan",
     "reviews": [
       {
         "reviewerName": "mobeenk708",
@@ -3691,8 +3713,9 @@
   {
     "name": "Al-Nakhal",
     "image": "https://media-cdn.tripadvisor.com/media/photo-f/08/a9/27/86/al-nakhal.jpg",
-    "rating": "3.5 of 5 bubbles",
+    "rating": "3.5 ",
     "address": "Near Shokat Khanam Hospital",
+    "cuisines": "Labanese",
     "reviews": [
       {
         "reviewerName": "flyfisher66",
@@ -3861,8 +3884,9 @@
   {
     "name": "Fri Chicks",
     "image": "https://media-cdn.tripadvisor.com/media/photo-i/0c/15/1d/ff/fri-chicks.jpg",
-    "rating": "4 of 5 bubbles",
+    "rating": "4 ",
     "address": "Raiwind Road Ali town",
+    "cuisines": "Fast Food, Pizza",
     "reviews": [
       {
         "reviewerName": "wasiqahmed",
@@ -3947,8 +3971,9 @@
   {
     "name": "Sweet Sensations",
     "image": "https://media-cdn.tripadvisor.com/media/photo-i/1d/d9/94/4f/cakes-cupcakes-cookies.jpg",
-    "rating": "5 of 5 bubbles",
+    "rating": "5 ",
     "address": "In Pablos Restaurant 136 B Block, Johar Town",
+    "cuisines": "Cafe, Deli",
     "reviews": [
       {
         "reviewerName": "sajsisjfiskdk",
@@ -4021,8 +4046,9 @@
   {
     "name": "Yasir Broast",
     "image": "https://media-cdn.tripadvisor.com/media/photo-i/19/66/ca/7b/20190915-200555-largejpg.jpg",
-    "rating": "3 of 5 bubbles",
+    "rating": "3 ",
     "address": "Main Boulevard 48-GPC Scheme Near Shaukat Khanam Hospital",
+    "cuisines": "Fast Food, Barbecue, Pakistani, Afghan, Arabic, Middle Eastern",
     "reviews": [
       {
         "reviewerName": "haidranib",
@@ -4131,8 +4157,9 @@
   {
     "name": "Go Foodio",
     "image": "https://media-cdn.tripadvisor.com/media/photo-i/1c/db/eb/a4/gofoodio.jpg",
-    "rating": "5 of 5 bubbles",
+    "rating": "5 ",
     "address": "Raiwind Rd, 2-b Kibria Town",
+    "cuisines": "Fast Food, Barbecue, Middle Eastern, Pakistani",
     "reviews": [
       {
         "reviewerName": "993amnaa",
@@ -4144,8 +4171,9 @@
   },
   {
     "name": "Chhintalia Restaurant & Cafe",
-    "rating": "4 of 5 bubbles",
+    "rating": "4 ",
     "address": "86 G1 Near Doctors Hospital Johar Town",
+
     "reviews": [
       {
         "reviewerName": "Bayrozgar",
@@ -4158,9 +4186,10 @@
   {
     "name": "Cakes and Bakes",
     "image": "https://media-cdn.tripadvisor.com/media/photo-f/1d/8b/c2/bd/a-delicious-salted-caramel.jpg",
-    "rating": "3 of 5 bubbles",
+    "rating": "3 ",
     "address": "18 Km Multan Road",
-    "reviews":[
+    "cuisines": "Middle Eastern, Pakistani",
+    "reviews": [
       {
         "reviewerName": "84amnac",
         "ratingDate": "Reviewed August 8, 2021",
@@ -4196,9 +4225,10 @@
   {
     "name": "Bakisto",
     "image": "https://media-cdn.tripadvisor.com/media/photo-i/16/d9/49/9e/premium-cake-brand-in.jpg",
-    "rating": "5 of 5 bubbles",
+    "rating": "5 ",
     "address": "PIA Road Main Boulevard 249-C, Shop # 01, PIA Housing Scheme, Johar Town",
-    "reviews":[
+    "cuisines": "Cafe",
+    "reviews": [
       {
         "reviewerName": "VArora27",
         "ratingDate": "Reviewed 3 weeks ago",
@@ -4247,14 +4277,15 @@
     "name": "Gogo Grill",
     "image": "https://media-cdn.tripadvisor.com/media/photo-i/1c/3b/69/fb/logo.jpg",
     "address": "Office No. 1 - 35 Civic Center Mian Plaza Block D2 Johar Town",
-    "reviews":[]
+    "reviews": []
   },
   {
     "name": "The Brasserie",
     "image": "https://media-cdn.tripadvisor.com/media/photo-i/25/93/e0/c6/looking-for-something.jpg",
-    "rating": "4.5 of 5 bubbles",
+    "rating": "4.5 ",
     "address": "3 Mall One, 94 D1 Gulberg",
-    "reviews":[
+    "cuisines": "Mediterranean, Contemporary",
+    "reviews": [
       {
         "reviewerName": "208irfana",
         "ratingDate": "Reviewed August 12, 2022",
@@ -4439,9 +4470,10 @@
   },
   {
     "name": "Lucknow Biryani",
-    "rating": "5 of 5 bubbles",
+    "rating": "5 ",
     "address": "At Pablos Restaurant 136 B, Phase 1 Johar Town Next To Park",
-    "reviews":[
+    "cuisines": "Cafe, Asian, Deli, Diner, Arabic",
+    "reviews": [
       {
         "reviewerName": "tehreemz2021",
         "ratingDate": "Reviewed November 19, 2021",
@@ -4465,9 +4497,10 @@
   {
     "name": "Qabail Tribes",
     "image": "https://media-cdn.tripadvisor.com/media/photo-i/0f/4a/06/0d/img-20170510-wa0012-largejpg.jpg",
-    "rating": "4.5 of 5 bubbles",
+    "rating": "4.5 ",
     "address": "46 B-II, Alam Road Gulberg III",
-    "reviews":[
+    "cuisines": "Barbecue, Asian, Pakistani, Afghan",
+    "reviews": [
       {
         "reviewerName": "taimur009",
         "ratingDate": "Reviewed February 19, 2022",
@@ -4743,9 +4776,10 @@
   {
     "name": "Bar-B-Q 391",
     "image": "https://media-cdn.tripadvisor.com/media/photo-i/11/72/59/52/20171129-220018-hdr-largejpg.jpg",
-    "rating": "4 of 5 bubbles",
+    "rating": "4 ",
     "address": "Service Rd 391 , Block F. Johar Town",
-    "reviews":[
+    "cuisines": "SteakHouse, Fast Food, Barbecue, Grill, Middle Eastern",
+    "reviews": [
       {
         "reviewerName": "sabaibbi",
         "ratingDate": "Reviewed May 28, 2019",
@@ -4763,9 +4797,10 @@
   {
     "name": "Options Restaurant Lahore",
     "image": "https://media-cdn.tripadvisor.com/media/photo-i/0e/2a/f9/ac/most-beautiful-ambiance.jpg",
-    "rating": "4 of 5 bubbles",
+    "rating": "4 ",
     "address": "Garden Heights New Garden Town Next to Mughl e Azam Banquet Hall",
-    "reviews":[
+    "cuisines": "Fast Food, Pakistani",
+    "reviews": [
       {
         "reviewerName": "AamirAg09",
         "ratingDate": "Reviewed December 20, 2022",
@@ -5221,9 +5256,10 @@
   {
     "name": "Salt'n Pepper",
     "image": "https://media-cdn.tripadvisor.com/media/photo-s/05/e0/90/7e/combo-meal.jpg",
-    "rating": "4 of 5 bubbles",
+    "rating": "4 ",
     "address": "48 - Commercial Zone Liberty Market Gulberg Iii",
-    "reviews":[
+    "cuisines": "Asian, Pakistani, International",
+    "reviews": [
       {
         "reviewerName": "SOQ2010",
         "ratingDate": "Reviewed December 15, 2022",
@@ -5949,9 +5985,10 @@
   {
     "name": "Dar's Delighto Restaurant",
     "image": "https://media-cdn.tripadvisor.com/media/photo-i/1a/91/7f/84/dd-logo.jpg",
-    "rating": "4.5 of 5 bubbles",
+    "rating": "4.5 ",
     "address": "PIA Main Boulevard, Block D 413-E PIA Cooperative Housing, Near Wapda Town Roundabout opposite Toni & Guy",
-    "reviews":[
+    "cuisines": "Chinese, Middle Eastern, Pakistani",
+    "reviews": [
       {
         "reviewerName": "sabaibbi",
         "ratingDate": "Reviewed August 16, 2019",
@@ -5968,9 +6005,10 @@
   },
   {
     "name": "Crumbs The Bakers",
-    "rating": "5 of 5 bubbles",
+    "rating": "5 ",
     "address": "9 Block B 1, Johar Town 1st Floor",
-    "reviews":[
+    "cuisines": "Italian, French, European, Turkish, Middle Eastern, Pakistani",
+    "reviews": [
       {
         "reviewerName": "193talals",
         "ratingDate": "Reviewed July 2, 2022",
@@ -5981,9 +6019,10 @@
   },
   {
     "name": "Khan Baba",
-    "rating": "4.5 of 5 bubbles",
+    "rating": "4.5 ",
     "address": "20-21 Maulana Shaukat Ali Road",
-    "reviews":[
+    "cuisines": "Barbecue",
+    "reviews": [
       {
         "reviewerName": "SwiftTortoise",
         "ratingDate": "Reviewed April 22, 2022",
@@ -6013,9 +6052,11 @@
   {
     "name": "Cake Feasta",
     "image": "https://media-cdn.tripadvisor.com/media/photo-i/0e/d9/c9/49/cake-feasta.jpg",
-    "rating": "5 of 5 bubbles",
+    "rating": "5 ",
     "address": "12-E First Floor Molana Shoukat Ali Road Opposite Johar Event Complex",
-    "reviews":[
+
+    "cuisines": "Cafe",
+    "reviews": [
       {
         "reviewerName": "Waris G",
         "ratingDate": "Reviewed April 2, 2017",
@@ -6033,9 +6074,10 @@
   {
     "name": "KPK Lounge",
     "image": "https://media-cdn.tripadvisor.com/media/photo-s/07/92/6e/55/caption.jpg",
-    "rating": "4 of 5 bubbles",
+    "rating": "4 ",
     "address": "Block B1, Maulana Shaukat Ali Road Opposite American Lyceum School",
-    "reviews":[
+    "cuisines": "Middle Eastern, Afghan",
+    "reviews": [
       {
         "reviewerName": "MohammadMujahid",
         "ratingDate": "Reviewed September 28, 2015",
@@ -6053,9 +6095,10 @@
   {
     "name": "Charsi Tikka",
     "image": "https://media-cdn.tripadvisor.com/media/photo-i/1d/7f/1c/a2/comfortable.jpg",
-    "rating": "5 of 5 bubbles",
+    "rating": "5 ",
     "address": "2 9 M, Block M Wapda Town Phase",
-    "reviews":[
+    "cuisines": "Beijing Cuisine",
+    "reviews": [
       {
         "reviewerName": "Charsi Tikka Fa... W",
         "ratingDate": "Reviewed August 2, 2021",
@@ -6067,9 +6110,10 @@
   {
     "name": "Namak Restaurant",
     "image": "https://media-cdn.tripadvisor.com/media/photo-f/07/ba/71/e0/namak.jpg",
-    "rating": "4 of 5 bubbles",
+    "rating": "4 ",
     "address": "Maulana Shaukat Ali Rd near Akbar Chowk and Yasir broast،, Block D Faisal Town",
-    "reviews":[
+    "cuisines": "Pakistani, Middle Eastern",
+    "reviews": [
       {
         "reviewerName": "Aamir82-3",
         "ratingDate": "Reviewed February 14, 2021",
@@ -6165,9 +6209,10 @@
   {
     "name": "Butt Karahi Faisal town",
     "image": "https://media-cdn.tripadvisor.com/media/photo-i/19/44/3f/79/photo4jpg.jpg",
-    "rating": "5 of 5 bubbles",
+    "rating": "5 ",
     "address": "24/A Faisal Town Opposite P.S.O Petrol Pump",
-    "reviews":[
+    "cuisines": "Middle Eastern, Pakistani",
+    "reviews": [
       {
         "reviewerName": "TruVu500",
         "ratingDate": "Reviewed March 26, 2022",
@@ -6190,9 +6235,10 @@
   },
   {
     "name": "Road Menu",
-    "rating": "5 of 5 bubbles",
+    "rating": "5 ",
     "address": "Karim Market Kareem Market",
-    "reviews":[
+    "cuisines": "Fast Food",
+    "reviews": [
       {
         "reviewerName": "RaheelAbbas",
         "ratingDate": "Reviewed May 12, 2016",
@@ -6204,9 +6250,10 @@
   {
     "name": "Fuchsia Kitchen",
     "image": "https://media-cdn.tripadvisor.com/media/photo-i/11/f9/df/9e/fuchsia-kitchen.jpg",
-    "rating": "4.5 of 5 bubbles",
+    "rating": "4.5 ",
     "address": "119/E-1, Hali Road Gulberg 3",
-    "reviews":[
+    "cuisines": "Thai, Chinese, Asian",
+    "reviews": [
       {
         "reviewerName": "Dudewheresmybike",
         "ratingDate": "Reviewed March 7, 2020",
@@ -6368,9 +6415,10 @@
   {
     "name": "Grill'n'Bake",
     "image": "https://media-cdn.tripadvisor.com/media/photo-f/07/4b/f1/41/grill-n-bake.jpg",
-    "rating": "4 of 5 bubbles",
+    "rating": "4 ",
     "address": "S-Block Commercial, Phase 2, DHA Plaza # 5",
-    "reviews":[
+    "cuisines": "Pakistani, Chinese, International, Barbecue",
+    "reviews": [
       {
         "reviewerName": "dr_usmanm",
         "ratingDate": "Reviewed September 13, 2021",
@@ -6442,9 +6490,10 @@
   {
     "name": "Galito's",
     "image": "https://media-cdn.tripadvisor.com/media/photo-i/0e/25/f3/f6/juicy-grilled-chicken.jpg",
-    "rating": "4.5 of 5 bubbles",
+    "rating": "4.5 ",
     "address": "Abdul Haque Rd Emporium Mall, Food Court",
-    "reviews":[
+    "cuisines": "Pizza, Fast Food, European, Portuguese",
+    "reviews": [
       {
         "reviewerName": "KitKay90",
         "ratingDate": "Reviewed November 12, 2019",
@@ -6786,9 +6835,9 @@
   {
     "name": "Banera",
     "image": "https://media-cdn.tripadvisor.com/media/photo-s/06/93/05/07/banera.jpg",
-    "rating": "4 of 5 bubbles",
+    "rating": "4 ",
     "address": "H Block, Commercial Market, DHA EME Sector, Multan Road",
-    "reviews":[
+    "reviews": [
       {
         "reviewerName": "noorullah89882983928",
         "ratingDate": "Reviewed 3 weeks ago",
@@ -6884,9 +6933,10 @@
   {
     "name": "Khyber Charsi",
     "image": "https://media-cdn.tripadvisor.com/media/photo-i/1a/e9/90/9d/img-20200216-211605-081.jpg",
-    "rating": "5 of 5 bubbles",
+    "rating": "5 ",
     "address": "35 Model Town Link Rd Golden Plaza",
-    "reviews":[
+    "cuisines": "Barbecue, Grill, Middle Eastern, Pakistani, Afghan",
+    "reviews": [
       {
         "reviewerName": "208irfana",
         "ratingDate": "Reviewed October 19, 2021",
@@ -6904,9 +6954,10 @@
   {
     "name": "Village",
     "image": "https://media-cdn.tripadvisor.com/media/photo-s/06/e3/8a/01/village.jpg",
-    "rating": "4 of 5 bubbles",
+    "rating": "4 ",
     "address": "103-B-2 MM Alam Rd Gulberg",
-    "reviews":[
+    "cuisines": "Asian, Pakistani, Middle Eastern",
+    "reviews": [
       {
         "reviewerName": "murshidameeremillatp",
         "ratingDate": "Reviewed August 7, 2022",
@@ -7476,9 +7527,9 @@
   {
     "name": "Freddy's cafe",
     "image": "https://media-cdn.tripadvisor.com/media/photo-i/0d/c3/50/bf/20161130-142343-lls-largejpg.jpg",
-    "rating": "4 of 5 bubbles",
+    "rating": "4 ",
     "address": "12C MM Alam Rd Gulberg",
-    "reviews":[
+    "reviews": [
       {
         "reviewerName": "468irfana",
         "ratingDate": "Reviewed 4 weeks ago",
@@ -8383,9 +8434,9 @@
   },
   {
     "name": "Lord of Food",
-    "rating": "5 of 5 bubbles",
+    "rating": "5 ",
     "address": "17 C Khyaban-e-Jinnah Near Chhatri Chowk",
-    "reviews":[
+    "reviews": [
       {
         "reviewerName": "marataba2022",
         "ratingDate": "Reviewed May 20, 2022",
@@ -8409,9 +8460,10 @@
   {
     "name": "Options Cofees and More",
     "image": "https://media-cdn.tripadvisor.com/media/photo-s/07/14/9c/ea/options-cofees-and-more.jpg",
-    "rating": "4.5 of 5 bubbles",
+    "rating": "4.5 ",
     "address": "8 Aibak Block, Garden Heights, New Garden Town Garden Heights Plaza, New Garden Town, Lahore",
-    "reviews":[
+    "cuisines": "Fast Food, Barbecue, Pakistani, Afghan, Arabic, Middle Eastern",
+    "reviews": [
       {
         "reviewerName": "437harrisn",
         "ratingDate": "Reviewed July 2, 2018",
@@ -8543,9 +8595,10 @@
   {
     "name": "Nando's",
     "image": "https://media-cdn.tripadvisor.com/media/photo-f/03/86/96/73/nandos.jpg",
-    "rating": "4 of 5 bubbles",
+    "rating": "4 ",
     "address": "MM Alam Road",
-    "reviews":[
+    "cuisines": "Portuguese, European",
+    "reviews": [
       {
         "reviewerName": "SOQ2010",
         "ratingDate": "Reviewed January 16, 2023",
@@ -9115,9 +9168,10 @@
   {
     "name": "DERA",
     "image": "https://media-cdn.tripadvisor.com/media/photo-s/0a/53/7d/b9/deira-front-view-at-night.jpg",
-    "rating": "4 of 5 bubbles",
+    "rating": "4 ",
     "address": "60-Qaddafi Stadium, Gulberg III",
-    "reviews":[
+    "cuisines": "Pakistani, Barbecue, Middle Eastern",
+    "reviews": [
       {
         "reviewerName": "londonactionwelfarel",
         "ratingDate": "Reviewed December 25, 2022",
@@ -9483,9 +9537,10 @@
   {
     "name": "Zee Grill",
     "image": "https://media-cdn.tripadvisor.com/media/photo-i/26/1f/50/1d/caption.jpg",
-    "rating": "4.5 of 5 bubbles",
+    "rating": "4.5 ",
     "address": "DHA-EME Sector Club",
-    "reviews":[
+    "cuisines": "American, Middle Eastern, Pakistani",
+    "reviews": [
       {
         "reviewerName": "OmerRON",
         "ratingDate": "Reviewed September 25, 2022",
@@ -9527,9 +9582,10 @@
   {
     "name": "PEERU'S CAFE",
     "image": "https://media-cdn.tripadvisor.com/media/photo-f/01/e8/d7/ba/step-in.jpg",
-    "rating": "4 of 5 bubbles",
+    "rating": "4 ",
     "address": "Raiwind Road",
-    "reviews":[
+    "cuisines": "Cafe, Asian, Middle Eastern, Pakistani",
+    "reviews": [
       {
         "reviewerName": "Sarims93",
         "ratingDate": "Reviewed November 21, 2019",
@@ -9877,9 +9933,10 @@
   {
     "name": "Lahoree Chatkhara",
     "image": "https://media-cdn.tripadvisor.com/media/photo-i/0d/06/a7/9a/lahoree-chatkhara.jpg",
-    "rating": "4 of 5 bubbles",
+    "rating": "4 ",
     "address": "32 C Model Town Link Road",
-    "reviews":[
+    "cuisines": "Middle Eastern, Pakistani",
+    "reviews": [
       {
         "reviewerName": "Hamza B",
         "ratingDate": "Reviewed January 28, 2017",
@@ -9897,9 +9954,10 @@
   {
     "name": "Curly Delights",
     "image": "https://media-cdn.tripadvisor.com/media/photo-i/11/ef/37/70/stir-fried-ice-cream.jpg",
-    "rating": "4.5 of 5 bubbles",
+    "rating": "4.5 ",
     "address": "21/A Poonch Road Samanabad",
-    "reviews":[
+    "cuisines": "Thai",
+    "reviews": [
       {
         "reviewerName": "Click S",
         "ratingDate": "Reviewed June 16, 2021",
@@ -9994,9 +10052,10 @@
   },
   {
     "name": "Maro Tandoor",
-    "rating": "3 of 5 bubbles",
+    "rating": "3 ",
     "address": "Model Town Extension Lahore Lalik Chowk, Dha & 82 M Block",
-    "reviews":[
+    "cuisines": "Pakistani",
+    "reviews": [
       {
         "reviewerName": "mn2000132",
         "ratingDate": "Reviewed September 13, 2018",
@@ -10038,9 +10097,10 @@
   {
     "name": "Salt 'n Pepper Village",
     "image": "https://media-cdn.tripadvisor.com/media/photo-s/09/c4/40/1a/salt-n-pepper-village.jpg",
-    "rating": "4 of 5 bubbles",
+    "rating": "4 ",
     "address": "103-B II, MM Alam Road",
-    "reviews":[
+    "cuisines": "Barbecue, Asian, Grill, Pakistani",
+    "reviews": [
       {
         "reviewerName": "Siki-Bhai",
         "ratingDate": "Reviewed November 15, 2022",
@@ -10130,7 +10190,8 @@
         "ratingDate": "Reviewed November 8, 2018",
         "reviewHeading": "A must while in Lahore",
         "reviewText": "superb food and great prices. Our group of young cricket player's parents, visiting from UK went here for a meal and loved it. A treat for meat-lovers. Probably one of the top 5 in Lahore."
-      }, {
+      },
+      {
         "reviewerName": "Abid R",
         "ratingDate": "Reviewed October 29, 2018",
         "reviewHeading": "I love its food",
@@ -10405,9 +10466,10 @@
   {
     "name": "The Pantry",
     "image": "https://media-cdn.tripadvisor.com/media/photo-i/0d/12/eb/27/the-pantry.jpg",
-    "rating": "4 of 5 bubbles",
+    "rating": "4 ",
     "address": "94-D Main Boulevard Gulberg Shop number 10, Mall 1, Gulberg-3",
-    "reviews":[
+    "cuisines": "Cafe, Pizza",
+    "reviews": [
       {
         "reviewerName": "Elizabeth T",
         "ratingDate": "Reviewed November 28, 2021",
@@ -10653,9 +10715,10 @@
   {
     "name": "Blue Flame",
     "image": "https://media-cdn.tripadvisor.com/media/photo-i/0d/aa/2f/b1/this-is-the-official.jpg",
-    "rating": "5 of 5 bubbles",
+    "rating": "5 ",
     "address": "48 Rachna Block Opp. Gulshan Iqbal Park, Iqbal Town",
-    "reviews":[
+    "cuisines": "Chinese, Fast Food, Barbecue, Middle Eastern, Pakistani",
+    "reviews": [
       {
         "reviewerName": "AnousheySheikh",
         "ratingDate": "Reviewed November 18, 2016",
@@ -10667,9 +10730,10 @@
   {
     "name": "BBQ-Tonight",
     "image": "https://media-cdn.tripadvisor.com/media/photo-s/06/2f/4a/f8/getlstd-property-photo.jpg",
-    "rating": "4 of 5 bubbles",
+    "rating": "4 ",
     "address": "Mehmood Kasuri Road 7A/2, Gulberg-3, Hussain Chowk",
-    "reviews":[
+    "cuisines": "Barbecue, Pakistani",
+    "reviews": [
       {
         "reviewerName": "Shahid K",
         "ratingDate": "Reviewed February 5, 2020",
@@ -10945,9 +11009,10 @@
   {
     "name": "Bamboo Union",
     "image": "https://media-cdn.tripadvisor.com/media/photo-i/0f/4b/0d/8c/sticky-rice-with-red.jpg",
-    "rating": "4 of 5 bubbles",
+    "rating": "4 ",
     "address": "95B-D/1, Main Boulevard, Gulberg III",
-    "reviews":[
+    "cuisines": "Asian, Thai, Shushi",
+    "reviews": [
       {
         "reviewerName": "zsazsaa123",
         "ratingDate": "Reviewed December 18, 2020",
@@ -11186,9 +11251,10 @@
   },
   {
     "name": "Baba Dholan Resturent and Student Bryani",
-    "rating": "5 of 5 bubbles",
+    "rating": "5 ",
     "address": "Multan Road Near Railway Station",
-    "reviews":[
+    "cuisines": "Middle Eastern, Pakistani",
+    "reviews": [
       {
         "reviewerName": "amjadsaahar494",
         "ratingDate": "Reviewed January 8, 2022",
@@ -11200,9 +11266,10 @@
   {
     "name": "Coffee, Tea & Company",
     "image": "https://media-cdn.tripadvisor.com/media/photo-f/07/a0/59/0f/outside.jpg",
-    "rating": "4 of 5 bubbles",
+    "rating": "4 ",
     "address": "2 MM Alam",
-    "reviews":[
+    "cuisines": "Cafe",
+    "reviews": [
       {
         "reviewerName": "Zenith23",
         "ratingDate": "Reviewed September 22, 2019",
@@ -11742,9 +11809,10 @@
   {
     "name": "Butler's Chocolate Cafe",
     "image": "https://media-cdn.tripadvisor.com/media/photo-i/0e/6c/0c/33/photo2jpg.jpg",
-    "rating": "4 of 5 bubbles",
+    "rating": "4 ",
     "address": "Fortune Mall, 20C Block A, M. M. Alam Road",
-    "reviews":[
+    "cuisines": "Cafe",
+    "reviews": [
       {
         "reviewerName": "shafqetr",
         "ratingDate": "Reviewed March 19, 2021",
@@ -12056,9 +12124,10 @@
   {
     "name": "E-cafe Restaurant",
     "image": "https://media-cdn.tripadvisor.com/media/photo-i/21/64/36/74/live-qawali-e-cafe-restaurant.jpg",
-    "rating": "5 of 5 bubbles",
+    "rating": "5 ",
     "address": "Ecafe Restaurant Liaqat Chowk, Sabzazar Rooftop Zam Zam Heights",
-    "reviews":[
+    "cuisines": "Chinese, Bar, Pizza, Thai, Pub, Middle Eastern, Pakistani",
+    "reviews": [
       {
         "reviewerName": "312bashirh",
         "ratingDate": "Reviewed January 25, 2023",
@@ -12070,9 +12139,10 @@
   {
     "name": "Saku Hana",
     "image": "https://media-cdn.tripadvisor.com/media/photo-i/24/3b/83/62/saku-hana.jpg",
-    "rating": "5 of 5 bubbles",
+    "rating": "5 ",
     "address": "3 45, Block L, Gulberg",
-    "reviews":[
+    "cuisines": "Japanese, Japanese Fusion",
+    "reviews": [
       {
         "reviewerName": "580naveedk",
         "ratingDate": "Reviewed June 25, 2022",
@@ -12108,9 +12178,9 @@
   {
     "name": "AFC",
     "image": "https://media-cdn.tripadvisor.com/media/photo-i/12/1e/38/0a/photo0jpg.jpg",
-    "rating": "5 of 5 bubbles",
+    "rating": "5 ",
     "address": "22 Gulshan Block Allamaiqbal Town",
-    "reviews":[
+    "reviews": [
       {
         "reviewerName": "Mian M",
         "ratingDate": "Reviewed February 21, 2018",
@@ -12128,9 +12198,10 @@
   {
     "name": "The Pantry",
     "image": "https://media-cdn.tripadvisor.com/media/photo-i/12/45/b2/f4/the-pantry-packages-mall.jpg",
-    "rating": "4.5 of 5 bubbles",
+    "rating": "4.5 ",
     "address": "Packages Mall, Walton Road",
-    "reviews":[
+    "cuisines": "Cafe",
+    "reviews": [
       {
         "reviewerName": "kenkeh",
         "ratingDate": "Reviewed October 5, 2022",
@@ -12202,9 +12273,10 @@
   {
     "name": "Delicatessen by Cosa Nostra",
     "image": "https://media-cdn.tripadvisor.com/media/photo-i/0c/fe/4a/88/mediterranean-steak-salad.jpg",
-    "rating": "4 of 5 bubbles",
+    "rating": "4 ",
     "address": "Shop 11, Mall One, 94 D1 Gulberg 3",
-    "reviews":[
+    "cuisines": "Cafe, Deli",
+    "reviews": [
       {
         "reviewerName": "AliJaffery",
         "ratingDate": "Reviewed July 22, 2019",
@@ -12389,9 +12461,10 @@
   },
   {
     "name": "Grill Hut",
-    "rating": "4 of 5 bubbles",
+    "rating": "4 ",
     "address": "Barket Market",
-    "reviews":[
+    "cuisines": "Fast Food",
+    "reviews": [
       {
         "reviewerName": "dr_usmanm",
         "ratingDate": "Reviewed August 6, 2018",
@@ -12403,9 +12476,10 @@
   {
     "name": "X2 Pan Asian",
     "image": "https://media-cdn.tripadvisor.com/media/photo-s/09/d0/b4/7b/x2-pan-asian.jpg",
-    "rating": "4 of 5 bubbles",
+    "rating": "4 ",
     "address": "102 c2 Gulberg 3",
-    "reviews":[
+    "cuisines": "Chinese, Asian",
+    "reviews": [
       {
         "reviewerName": "dr_usmanm",
         "ratingDate": "Reviewed March 8, 2020",
@@ -12591,9 +12665,10 @@
   {
     "name": "Ziafat",
     "image": "https://media-cdn.tripadvisor.com/media/photo-i/10/fe/4e/1f/front-view.jpg",
-    "rating": "3.5 of 5 bubbles",
+    "rating": "3.5 ",
     "address": "21-C-1 MM Alam Rd Gulberg",
-    "reviews":[
+    "cuisines": "Pakistani, Asian",
+    "reviews": [
       {
         "reviewerName": "Siki-Bhai",
         "ratingDate": "Reviewed November 15, 2022",
@@ -12869,9 +12944,9 @@
   {
     "name": "Chandi Chowk",
     "image": "https://media-cdn.tripadvisor.com/media/photo-i/0e/6e/a0/6c/photo1jpg.jpg",
-    "rating": "4.5 of 5 bubbles",
+    "rating": "4.5 ",
     "address": "3 Gurumangat Rd",
-    "reviews":[
+    "reviews": [
       {
         "reviewerName": "V929KJabdulb",
         "ratingDate": "Reviewed June 7, 2021",
@@ -12961,9 +13036,9 @@
   {
     "name": "The Garden by Bundu Khan",
     "image": "https://media-cdn.tripadvisor.com/media/photo-i/18/69/2b/24/photo3jpg.jpg",
-    "rating": "4 of 5 bubbles",
+    "rating": "4 ",
     "address": "1 Liberty Market Noor Jehan Rd",
-    "reviews":[
+    "reviews": [
       {
         "reviewerName": "NFATIMAHH",
         "ratingDate": "Reviewed June 5, 2022",
@@ -13029,9 +13104,10 @@
   {
     "name": "Sadiq Halwa Puri",
     "image": "https://media-cdn.tripadvisor.com/media/photo-f/0b/24/0a/f8/sadiq-sweets.jpg",
-    "rating": "4 of 5 bubbles",
+    "rating": "4 ",
     "address": "PIA Housing Society Near Wapda Town",
-    "reviews":[
+    "cuisines": "Pakistani, Middle Eastern",
+    "reviews": [
       {
         "reviewerName": "dr_usmanm",
         "ratingDate": "Reviewed July 19, 2021",
@@ -13115,9 +13191,10 @@
   {
     "name": "Bon Vivant Palais",
     "image": "https://media-cdn.tripadvisor.com/media/photo-i/0d/70/5a/e5/20161027-184621-lls-largejpg.jpg",
-    "rating": "4 of 5 bubbles",
+    "rating": "4 ",
     "address": "54-D-1 Gulberg 3, Sir Sayed Road",
-    "reviews":[
+    "cuisines": "Pakistani, Middle Eastern, Asian",
+    "reviews": [
       {
         "reviewerName": "Shahid K",
         "ratingDate": "Reviewed March 5, 2020",
@@ -13273,9 +13350,10 @@
   {
     "name": "Howdy's Restaurant",
     "image": "https://media-cdn.tripadvisor.com/media/photo-s/09/2d/b7/a6/howdy-s-restaurant.jpg",
-    "rating": "4 of 5 bubbles",
+    "rating": "4 ",
     "address": "Johar Town",
-    "reviews":[
+    "cuisines": "American, Fast Food",
+    "reviews": [
       {
         "reviewerName": "464adils",
         "ratingDate": "Reviewed June 10, 2021",
@@ -13437,9 +13515,10 @@
   {
     "name": "Cinnabon",
     "image": "https://media-cdn.tripadvisor.com/media/photo-s/0a/92/c8/62/cinnabon-gulberg-view.jpg",
-    "rating": "4 of 5 bubbles",
+    "rating": "4 ",
     "address": "2B/3 Gulberg 3, Mian Mehmood Ali Kasuri Rd",
-    "reviews":[
+    "cuisines": "Cafe",
+    "reviews": [
       {
         "reviewerName": "535syedmuhammadr",
         "ratingDate": "Reviewed June 27, 2021",
@@ -13529,9 +13608,10 @@
   {
     "name": "Wasabi Gulberg",
     "image": "https://media-cdn.tripadvisor.com/media/photo-i/18/dd/f3/68/getlstd-property-photo.jpg",
-    "rating": "4.5 of 5 bubbles",
+    "rating": "4.5 ",
     "address": "MM Alam Rd, 98 Block B 1 Gulberg III",
-    "reviews":[
+    "cuisines": "Japanese, Shushi, Asian, Central Asian",
+    "reviews": [
       {
         "reviewerName": "Abeer H",
         "ratingDate": "Reviewed October 12, 2021",
@@ -13579,9 +13659,10 @@
   {
     "name": "Marks Kitchen",
     "image": "https://media-cdn.tripadvisor.com/media/photo-i/1d/48/a4/93/marks-kitchen-is-the.jpg",
-    "rating": "5 of 5 bubbles",
+    "rating": "5 ",
     "address": "Shop # G-15, AL - Hafeez View, Block D1, Gulberg 3",
-    "reviews":[
+    "cuisines": "Cafe, Fast Food, Grill, Diner",
+    "reviews": [
       {
         "reviewerName": "abrahmanh2018",
         "ratingDate": "Reviewed July 8, 2021",
@@ -13611,9 +13692,10 @@
   {
     "name": "P.F. Chang's",
     "image": "https://media-cdn.tripadvisor.com/media/photo-i/16/a7/2c/fa/pf-chang-s-pakistan-at.jpg",
-    "rating": "3.5 of 5 bubbles",
+    "rating": "3.5 ",
     "address": "17 C1 MM Alam Road Gulberg 3",
-    "reviews":[
+    "cuisines": "Chinese, Asian, Cantonese",
+    "reviews": [
       {
         "reviewerName": "SOQ2010",
         "ratingDate": "Reviewed 3 weeks ago",
@@ -13799,9 +13881,10 @@
   {
     "name": "Fuscia Restaurant",
     "image": "https://media-cdn.tripadvisor.com/media/photo-i/12/02/bd/13/duck-curry.jpg",
-    "rating": "5 of 5 bubbles",
+    "rating": "5 ",
     "address": "119/E-1, Hali Road Gulberg 3 Near Qaddafi Stadium",
-    "reviews":[
+    "cuisines": "Thai",
+    "reviews": [
       {
         "reviewerName": "SwiftTortoise",
         "ratingDate": "Reviewed April 22, 2022",
@@ -13831,9 +13914,9 @@
   {
     "name": "Tuscany Courtyard",
     "image": "https://media-cdn.tripadvisor.com/media/photo-i/0f/15/30/ea/lamb-chops.jpg",
-    "rating": "4 of 5 bubbles",
+    "rating": "4 ",
     "address": "16-C-1 MM Alam Rd, Block C1 Block C 1 Gulberg III",
-    "reviews":[
+    "reviews": [
       {
         "reviewerName": "AsifTanvir",
         "ratingDate": "Reviewed October 27, 2022",
@@ -13965,9 +14048,10 @@
   {
     "name": "Dolci Sweets & Bakers",
     "image": "https://media-cdn.tripadvisor.com/media/photo-i/1b/69/4a/f0/logo.jpg",
-    "rating": "3.5 of 5 bubbles",
+    "rating": "3.5 ",
     "address": "Kacha Jail Rd, Quaid e Millat Colony, Lahore, Punjab, Pakistan",
-    "reviews":[
+    "cuisines": "Middle Eastern, Pakistani",
+    "reviews": [
       {
         "reviewerName": "hiraTabish",
         "ratingDate": "Reviewed April 19, 2021",
@@ -13991,9 +14075,9 @@
   {
     "name": "Muhammad Nihari House",
     "image": "https://media-cdn.tripadvisor.com/media/photo-i/13/27/6e/b1/amazing-taste.jpg",
-    "rating": "4 of 5 bubbles",
+    "rating": "4 ",
     "address": "Defence Road At the cross junction of Walton Road and Defence Road",
-    "reviews":[
+    "reviews": [
       {
         "reviewerName": "SwiftTortoise",
         "ratingDate": "Reviewed April 22, 2022",
@@ -14047,9 +14131,10 @@
   {
     "name": "Cafe Beirut",
     "image": "https://media-cdn.tripadvisor.com/media/photo-i/16/f8/57/32/img-20190325-232037-705.jpg",
-    "rating": "3.5 of 5 bubbles",
+    "rating": "3.5 ",
     "address": "3 95b-D/1 Main Boulevard Gulburg",
-    "reviews":[
+    "cuisines": "Labanese, Middle Eastern, Mediterranean",
+    "reviews": [
       {
         "reviewerName": "Marcos F",
         "ratingDate": "Reviewed 1 week ago",
@@ -14141,14 +14226,14 @@
         "reviewText": "Lahore has now to offer different cuisines from around the globe. Visited cafe Beirut(a Lebanese cuisine) on main boulevard gulburg,this small block can be easily called a main station in lahore's gastronomy.\nLebanese food isn’t for everyone’s taste especially when you compare with the local...Tikka or seekh kababs. It’s Levantine style of cooking with totally different spices. seeing me taking interest in food and capturing food pictures ,waiter wanted me to get introduced with owner named suleman,a nice man who told me that they use only imported ingredients to make food taste more authentic, to my surprise they have also their own butchery. it is their 5th year in lahore, initial three year their restaurant was part of flatties hotel. besides ground floor they have rooftop and courtyard sitting arrangements. full capacity is 130 to 150 seats. staff is professional and efficient, live kitchen is good, you get better idea about food hygiene but added up noise was not my cup of tea. good interior,Arabic music can make you feel somewhere in middle East.\nThe owner offered complimentary hummus small gesture but shows the length that Café Beirut staff goes to just to make their customers feel good to be there. as starter I myself picked\n* Baba ghanouj:A well known savoury made of char-grilled eggplant mixed with onions,tomatoes,parsley,olive oil and lemon juice served with fresh pita bread it tasted so refreshing.450 pkr \n*Complementary Beiruti Hummus was much better than hummus I tasted in few other Pakistani restaurants. smooth paste with crunch of small onion pieces .Hummus is an important component of many Lebanese meals ,typically eaten with pita bread. 450pkr\nMain course \n*on ordertaker's recommendation I took charcoal grilled chicken with vegetables. I would say this was best pick from menu. perfectly spiced, very tender chicken(with skin) served with fries ,olives,pickles ,roasted veggies and very light refreshing white dip.900pkr\nsweeter side just added big amount in bill, loved the place so definitely going to visit again but I will choose something else. \nso my wrong order was Kunafa \n*kunafa could be jaw dropping delicious if followed orignal recipes but if was badly cooked mixture of sooji with kunafa dough and mazzoralla. taste can be acceptable for those badly craving for kunafa. 750pkr\nthey offer three flavours of Lebanese serup drink \n●date\n●date with tamarind \n●rose water (it was unavailable)\nI picked date with tamarind,it tasted good but quantity would hardly leave you enjoy the taste.\n*valet parking is available rate 150pkr\nTotal Bill: Rs. 3,300 (1 starter,1main course, 1drink ,1 sweetdishe and 1 seperate English  tea)\nFood: 7.5/10\nOverall Experience: 8/10\naffordability 😉:4.5/10\nDefinitely visiting again.More"
       }
     ]
-    
   },
   {
     "name": "Turkish Restaurant and Cafe",
     "image": "https://media-cdn.tripadvisor.com/media/photo-i/0e/4b/39/94/salad-and-bread.jpg",
-    "rating": "3.5 of 5 bubbles",
+    "rating": "3.5 ",
     "address": "102, B-II, MM Alam Road Gulberg II MM Alam Road",
-    "reviews":[
+    "cuisines": "Turkish, Middle Eastern, Mediterranean",
+    "reviews": [
       {
         "reviewerName": "Alishahbazz",
         "ratingDate": "Reviewed March 20, 2020",
@@ -14244,9 +14329,10 @@
   {
     "name": "The Urban Cafe Yoglicious",
     "image": "https://media-cdn.tripadvisor.com/media/photo-i/12/a3/a7/8f/dsc-0031-largejpg.jpg",
-    "rating": "4.5 of 5 bubbles",
+    "rating": "4.5 ",
     "address": "A 48 Ghalib Rd Block C2 Block C 2 Gulberg III",
-    "reviews":[
+    "cuisines": "Cafe",
+    "reviews": [
       {
         "reviewerName": "Ismail S",
         "ratingDate": "Reviewed April 17, 2019",
@@ -14324,9 +14410,10 @@
   {
     "name": "The Garden Spice",
     "image": "https://media-cdn.tripadvisor.com/media/photo-i/22/b3/f2/36/the-outdoor-environment.jpg",
-    "rating": "5 of 5 bubbles",
+    "rating": "5 ",
     "address": "Block A 2, P & D Society",
-    "reviews":[
+    "cuisines": "Cafe, Chinese, Bar, Fast Food, Pub, Barbecue, Middle Eastern",
+    "reviews": [
       {
         "reviewerName": "adeela390",
         "ratingDate": "Reviewed March 28, 2022",
@@ -14338,9 +14425,10 @@
   {
     "name": "Cafe Pomelo",
     "image": "https://media-cdn.tripadvisor.com/media/photo-i/12/49/5a/23/menu-cover.jpg",
-    "rating": "4.5 of 5 bubbles",
+    "rating": "4.5 ",
     "address": "Floor 1st Packages Mall",
-    "reviews":[
+    "cuisines": "Italian, American, Asian, Thai, Mangolian",
+    "reviews": [
       {
         "reviewerName": "sabaibbi",
         "ratingDate": "Reviewed May 5, 2019",
@@ -14370,9 +14458,10 @@
   {
     "name": "Meat The Cheese",
     "image": "https://media-cdn.tripadvisor.com/media/photo-i/19/8a/59/69/photo0jpg.jpg",
-    "rating": "4.5 of 5 bubbles",
+    "rating": "4.5 ",
     "address": "Noor Jehan Road Near Hussain Chowk",
-    "reviews":[
+    "cuisines": "Cafe, Barbecue, Asian, Deli, Central-Italian",
+    "reviews": [
       {
         "reviewerName": "SwiftTortoise",
         "ratingDate": "Reviewed April 22, 2022",
@@ -14396,9 +14485,10 @@
   {
     "name": "Novu",
     "image": "https://media-cdn.tripadvisor.com/media/photo-i/16/c7/6a/9b/img-20190313-191118-091.jpg",
-    "rating": "4 of 5 bubbles",
+    "rating": "4 ",
     "address": "Hussain Chowk, Gulberg III",
-    "reviews":[
+    "cuisines": "Asian",
+    "reviews": [
       {
         "reviewerName": "Mani1982lahori",
         "ratingDate": "Reviewed 4 weeks ago",
@@ -14451,9 +14541,9 @@
   },
   {
     "name": "The Hashery",
-    "rating": "5 of 5 bubbles",
+    "rating": "5 ",
     "address": "3 102 Block B 2, M.M Alam Road, Gulberg",
-    "reviews":[
+    "reviews": [
       {
         "reviewerName": "Hjehanzeb",
         "ratingDate": "Reviewed December 23, 2020",
@@ -14483,9 +14573,10 @@
   {
     "name": "La Atrium",
     "image": "https://media-cdn.tripadvisor.com/media/photo-f/05/b7/98/aa/la-atrium.jpg",
-    "rating": "3.5 of 5 bubbles",
+    "rating": "3.5 ",
     "address": "E1 Gulberg III, Haali Road",
-    "reviews":[
+    "cuisines": "International",
+    "reviews": [
       {
         "reviewerName": "Munir261",
         "ratingDate": "Reviewed October 6, 2019",
@@ -14713,9 +14804,9 @@
   {
     "name": "China Town Restaurant",
     "image": "https://media-cdn.tripadvisor.com/media/photo-i/0e/e5/23/87/lunch-with-family.jpg",
-    "rating": "4 of 5 bubbles",
+    "rating": "4 ",
     "address": "10 Mian Mehmood Ali Kasoori Rd",
-    "reviews":[
+    "reviews": [
       {
         "reviewerName": "kenkeh",
         "ratingDate": "Reviewed October 5, 2022",
@@ -14811,9 +14902,10 @@
   {
     "name": "Opium Thai",
     "image": "https://media-cdn.tripadvisor.com/media/photo-s/03/3f/a3/83/food.jpg",
-    "rating": "3.5 of 5 bubbles",
+    "rating": "3.5 ",
     "address": "45-C-I Off M.M.Alam Road",
-    "reviews":[
+    "cuisines": "Asian, Thai",
+    "reviews": [
       {
         "reviewerName": "SaddviAndalwala",
         "ratingDate": "Reviewed July 6, 2019",
@@ -14963,9 +15055,10 @@
   {
     "name": "Burger Hub",
     "image": "https://media-cdn.tripadvisor.com/media/photo-s/0a/d5/87/ba/the-speciality-the-emperor.jpg",
-    "rating": "4 of 5 bubbles",
+    "rating": "4 ",
     "address": "MM Alam Rd. LG Floor, Vogue Towers",
-    "reviews":[
+    "cuisines": "Fast Food",
+    "reviews": [
       {
         "reviewerName": "adilshaw",
         "ratingDate": "Reviewed July 24, 2019",
@@ -15061,9 +15154,9 @@
   {
     "name": "Alkhan Restaurant",
     "image": "https://media-cdn.tripadvisor.com/media/photo-i/26/32/50/ea/outdoor-sitting.jpg",
-    "rating": "4 of 5 bubbles",
+    "rating": "4 ",
     "address": "Chowk Thokar Niaz Baig, Raiwind Road",
-    "reviews":[
+    "reviews": [
       {
         "reviewerName": "490zoit",
         "ratingDate": "Reviewed February 5, 2023",
@@ -15081,9 +15174,10 @@
   {
     "name": "Gauchos Steakhouse",
     "image": "https://media-cdn.tripadvisor.com/media/photo-i/1d/55/8a/20/beef-steak.jpg",
-    "rating": "4.5 of 5 bubbles",
+    "rating": "4.5 ",
     "address": "Mall 1, Gulberg lll",
-    "reviews":[
+    "cuisines": "Steakhouse",
+    "reviews": [
       {
         "reviewerName": "SwiftTortoise",
         "ratingDate": "Reviewed April 22, 2022",
@@ -15107,9 +15201,10 @@
   {
     "name": "Coffee Tea and Company",
     "image": "https://media-cdn.tripadvisor.com/media/photo-i/0d/e1/0a/2b/great-ambience-and-service.jpg",
-    "rating": "3.5 of 5 bubbles",
+    "rating": "3.5 ",
     "address": "Shop#1, 3 B/3, Mian M. Ali Kasuri Road",
-    "reviews":[
+    "cuisines": "Cafe",
+    "reviews": [
       {
         "reviewerName": "Zenith23",
         "ratingDate": "Reviewed January 7, 2020",
@@ -15205,9 +15300,10 @@
   {
     "name": "Eggspectation",
     "image": "https://media-cdn.tripadvisor.com/media/photo-i/27/45/fc/2a/breakfast.jpg",
-    "rating": "3 of 5 bubbles",
+    "rating": "3 ",
     "address": "57 Main Boulevard Gulberg,lahore",
-    "reviews":[
+    "cuisines": "French, American, European, Asian, Canadian",
+    "reviews": [
       {
         "reviewerName": "omarsT2453PR",
         "ratingDate": "Reviewed December 10, 2022",
@@ -15231,9 +15327,10 @@
   {
     "name": "Karachi Kanteen",
     "image": "https://media-cdn.tripadvisor.com/media/photo-i/13/5b/3b/98/photo1jpg.jpg",
-    "rating": "4.5 of 5 bubbles",
+    "rating": "4.5 ",
     "address": "20 _ D, PIA Society Main Boulevard",
-    "reviews":[
+    "cuisines": "Peruvian, Barbecue, Middle Eastern, Pakistani",
+    "reviews": [
       {
         "reviewerName": "Fatima218",
         "ratingDate": "Reviewed January 19, 2019",
@@ -15269,9 +15366,10 @@
   {
     "name": "Coffee Bean and Tea Leaf",
     "image": "https://media-cdn.tripadvisor.com/media/photo-i/19/7f/28/12/photo1jpg.jpg",
-    "rating": "4 of 5 bubbles",
+    "rating": "4 ",
     "address": "The Packages Mall 2nd Floor, Near Habbit Shop, Walton Road",
-    "reviews":[
+    "cuisines": "American, International, Asian, Pub, Fusion",
+    "reviews": [
       {
         "reviewerName": "SwiftTortoise",
         "ratingDate": "Reviewed April 22, 2022",
@@ -15288,9 +15386,10 @@
   },
   {
     "name": "Buzkash",
-    "rating": "3.5 of 5 bubbles",
+    "rating": "3.5 ",
     "address": "Hafeez Kardar Rd",
-    "reviews":[
+
+    "reviews": [
       {
         "reviewerName": "AqeelMaqbool",
         "ratingDate": "Reviewed June 13, 2017",
@@ -15302,9 +15401,10 @@
   {
     "name": "The Burning Giraffe",
     "image": "https://media-cdn.tripadvisor.com/media/photo-i/13/10/f5/3d/dsc-0052-largejpg.jpg",
-    "rating": "4.5 of 5 bubbles",
+    "rating": "4.5 ",
     "address": "Fashion Avenue Mall 94, Gulberg",
-    "reviews":[
+    "cuisines": "Cafe",
+    "reviews": [
       {
         "reviewerName": "202saimam",
         "ratingDate": "Reviewed July 31, 2021",
@@ -15334,9 +15434,10 @@
   {
     "name": "Gully Bites",
     "image": "https://media-cdn.tripadvisor.com/media/photo-i/1b/65/49/fe/gully-bites.jpg",
-    "rating": "5 of 5 bubbles",
+    "rating": "5 ",
     "address": "Shop 4, Ahad Arcade",
-    "reviews":[
+    "cuisines": "Pakistani, Street Food",
+    "reviews": [
       {
         "reviewerName": "shehryar a",
         "ratingDate": "Reviewed September 21, 2022",
@@ -15347,9 +15448,10 @@
   },
   {
     "name": "Howdy!",
-    "rating": "4.5 of 5 bubbles",
+    "rating": "4.5 ",
     "address": "Rooftop, 9C, MM Alam Road",
-    "reviews":[
+    "cuisines": "Tuscan, Central-Italian",
+    "reviews": [
       {
         "reviewerName": "Siki-Bhai",
         "ratingDate": "Reviewed November 15, 2022",
@@ -15367,9 +15469,10 @@
   {
     "name": "The Rice Bowl",
     "image": "https://media-cdn.tripadvisor.com/media/photo-i/17/d8/6e/58/20190608-205430-largejpg.jpg",
-    "rating": "4.5 of 5 bubbles",
+    "rating": "4.5 ",
     "address": "95/B, D1, Gulberg 3, Lahore Near Main Boulevard Gulberg",
-    "reviews":[
+    "cuisines": "Chinese, Japanese, Sea Food, Shushi",
+    "reviews": [
       {
         "reviewerName": "tehreemz2021",
         "ratingDate": "Reviewed April 19, 2021",
@@ -15405,9 +15508,10 @@
   {
     "name": "Mian Jee Tandoori Tikka",
     "image": "https://media-cdn.tripadvisor.com/media/photo-i/1a/90/ad/3a/mian-jee-tandoori-tikka.jpg",
-    "rating": "5 of 5 bubbles",
+    "rating": "5 ",
     "address": "131- N Block, Borh Wala Chowk, Ghazali Road, Samnabad",
-    "reviews":[
+    "cuisines": "Fast Food, Barbecue, Asian, Middle Eastern, Pakistani",
+    "reviews": [
       {
         "reviewerName": "660mianaLahore, Pakistan",
         "ratingDate": "Reviewed January 10, 2020",
@@ -15418,9 +15522,10 @@
   },
   {
     "name": "Deans BBQ Restaurant",
-    "rating": "3 of 5 bubbles",
+    "rating": "3 ",
     "address": "10 Javed Mian Dad Enclosure, Gaddafi's Stadium",
-    "reviews":[
+    "cuisines": "Fusion",
+    "reviews": [
       {
         "reviewerName": "SaddviAndalwala",
         "ratingDate": "Reviewed July 6, 2019",
@@ -15432,9 +15537,9 @@
   {
     "name": "Butlers Chocolate Cafe",
     "image": "https://media-cdn.tripadvisor.com/media/photo-i/13/d0/9f/a9/img-20180722-wa0042-largejpg.jpg",
-    "rating": "4 of 5 bubbles",
+    "rating": "4 ",
     "address": "Shop# 023, Second Floor, Packages Mall",
-    "reviews":[
+    "reviews": [
       {
         "reviewerName": "rana_irfan82",
         "ratingDate": "Reviewed July 23, 2018",
@@ -15446,9 +15551,10 @@
   {
     "name": "Oak & Suede",
     "image": "https://media-cdn.tripadvisor.com/media/photo-i/1a/aa/04/1b/bone-marrow-with-onion.jpg",
-    "rating": "5 of 5 bubbles",
+    "rating": "5 ",
     "address": "3 56 B-3, Mehmood Kasuri Road, Gulberg 4th floor Grand Ittehad Hotel",
-    "reviews":[
+    "cuisines": "Steakhouse, Contemporary",
+    "reviews": [
       {
         "reviewerName": "shahzadhassanq",
         "ratingDate": "Reviewed November 29, 2020",
@@ -15460,9 +15566,9 @@
   {
     "name": "Dalston House",
     "image": "https://media-cdn.tripadvisor.com/media/photo-i/1a/9c/8b/ab/delicious-healthy-and.jpg",
-    "rating": "5 of 5 bubbles",
+    "rating": "5 ",
     "address": "61/A C-II Gulberg III",
-    "reviews":[
+    "reviews": [
       {
         "reviewerName": "MMSolo",
         "ratingDate": "Reviewed January 15, 2020",
@@ -15474,9 +15580,10 @@
   {
     "name": "Pizza Hut",
     "image": "https://media-cdn.tripadvisor.com/media/photo-i/0e/e0/76/50/lasagna.jpg",
-    "rating": "3 of 5 bubbles",
+    "rating": "3 ",
     "address": "MM Alam Road",
-    "reviews":[
+    "cuisines": "Pizza",
+    "reviews": [
       {
         "reviewerName": "miawM6705GY",
         "ratingDate": "Reviewed July 31, 2022",
@@ -15751,9 +15858,10 @@
   },
   {
     "name": "Tree Lounge",
-    "rating": "3.5 of 5 bubbles",
+    "rating": "3.5 ",
     "address": "Floor 1st WB Mall, 6C/3, Liberty Market Road Above Zong & Gourmet",
-    "reviews":[
+    "cuisines": "American, Asian, Cafe",
+    "reviews": [
       {
         "reviewerName": "Robert P",
         "ratingDate": "Reviewed October 14, 2021",
@@ -15789,9 +15897,10 @@
   {
     "name": "Khayaban Restaurant & Hotel",
     "image": "https://media-cdn.tripadvisor.com/media/photo-i/0d/54/15/31/london-based-owner-ideas.jpg",
-    "rating": "5 of 5 bubbles",
+    "rating": "5 ",
     "address": "370 Tip Block-Khayaban-E-Amin, Defence Road, Valencia Defence Roa Near Valencia & University of Lahore",
-    "reviews":[
+    "cuisines": "Pizza, Fast Food, Middle Eastern, Pakistani",
+    "reviews": [
       {
         "reviewerName": "Hamid S",
         "ratingDate": "Reviewed July 20, 2018",
@@ -15803,9 +15912,10 @@
   {
     "name": "Osh Silkrout Cusine",
     "image": "https://media-cdn.tripadvisor.com/media/photo-i/1a/d7/8b/60/fuki-beef.jpg",
-    "rating": "5 of 5 bubbles",
+    "rating": "5 ",
     "address": "81-A Block B 2, Gulberg III Opp To Dominos, Besides Total Petrol Pump",
-    "reviews":[
+    "cuisines": "Chinese, Asian, Fujian, Mongolian, Xinjiang, Central Asian",
+    "reviews": [
       {
         "reviewerName": "Shereen M",
         "ratingDate": "Reviewed January 28, 2020",
@@ -15816,9 +15926,10 @@
   },
   {
     "name": "Nauratan by Maisonette",
-    "rating": "5 of 5 bubbles",
+    "rating": "5 ",
     "address": "51C2 Gulberg 3",
-    "reviews":[
+    "cuisines": "Diner",
+    "reviews": [
       {
         "reviewerName": "SwiftTortoise",
         "ratingDate": "Reviewed December 11, 2018",
@@ -15830,9 +15941,10 @@
   {
     "name": "Pizza Domeno",
     "image": "https://media-cdn.tripadvisor.com/media/photo-i/16/90/11/1d/reception.jpg",
-    "rating": "3.5 of 5 bubbles",
+    "rating": "3.5 ",
     "address": "Lg 57 Eden tower main boulevard Gulberg",
-    "reviews":[
+    "cuisines": "Pizza, Fast Food",
+    "reviews": [
       {
         "reviewerName": "shaheenb2022",
         "ratingDate": "Reviewed February 27, 2022",
@@ -15874,9 +15986,10 @@
   {
     "name": "Casa Bianca Restaurant",
     "image": "https://media-cdn.tripadvisor.com/media/photo-i/11/aa/4f/79/casa-bianca-from-outside.jpg",
-    "rating": "3.5 of 5 bubbles",
+    "rating": "3.5 ",
     "address": "61/A, C-II, Gulberg III off M.M Alam Road",
-    "reviews":[
+    "cuisines": "Italian, Chinese, International, Asian, Thai",
+    "reviews": [
       {
         "reviewerName": "778saqibr",
         "ratingDate": "Reviewed December 24, 2017",
@@ -15899,9 +16012,9 @@
   },
   {
     "name": "R.E.S Royal Lounge",
-    "rating": "4 of 5 bubbles",
+    "rating": "4 ",
     "address": "Service Rd 101 Habitat Flat",
-    "reviews":[
+    "reviews": [
       {
         "reviewerName": "Mumtaz400",
         "ratingDate": "Reviewed June 3, 2014",
@@ -15961,9 +16074,10 @@
   {
     "name": "Zouq E Saeed Restaurant",
     "image": "https://media-cdn.tripadvisor.com/media/photo-i/1c/2f/08/4a/our-bar-area-is-a-place.jpg",
-    "rating": "5 of 5 bubbles",
+    "rating": "5 ",
     "address": "234 Gurumangat Road, Block A 3, Gulberg III Near Hussain Chowk, Adjacent to Savoey Hotel",
-    "reviews":[
+    "cuisines": "Chinese, Steakhouse, Bar, Barbecue, Pakistani",
+    "reviews": [
       {
         "reviewerName": "hashim-as129",
         "ratingDate": "Reviewed October 8, 2020",
@@ -15975,9 +16089,10 @@
   {
     "name": "Sashas",
     "image": "https://media-cdn.tripadvisor.com/media/photo-i/1a/76/5e/63/20191226-223827-largejpg.jpg",
-    "rating": "5 of 5 bubbles",
+    "rating": "5 ",
     "address": "Main Boulevard Gulberg Shop No. 4 at Mall 94",
-    "reviews":[
+    "cuisines": "Cafe, Central Asian",
+    "reviews": [
       {
         "reviewerName": "madikhanzai",
         "ratingDate": "Reviewed January 1, 2020",
@@ -15989,9 +16104,10 @@
   {
     "name": "Chai kada",
     "image": "https://media-cdn.tripadvisor.com/media/photo-i/0e/6c/dd/b4/photo8jpg.jpg",
-    "rating": "3.5 of 5 bubbles",
+    "rating": "3.5 ",
     "address": "1-B/3,Khurshid Qasuri Road,Gulberg III.",
-    "reviews":[
+    "cuisines": "Contemporary, Middle Eastern, Pakistani",
+    "reviews": [
       {
         "reviewerName": "waqarsarwar",
         "ratingDate": "Reviewed February 16, 2020",
@@ -16039,9 +16155,9 @@
   {
     "name": "Asian Aroma",
     "image": "https://media-cdn.tripadvisor.com/media/photo-i/19/54/d7/7c/asian-aroma.jpg",
-    "rating": "2.5 of 5 bubbles",
+    "rating": "2.5 ",
     "address": "Park Lane Hotel, 107-B3 MM Alam Road Park Lane Hotel",
-    "reviews":[
+    "reviews": [
       {
         "reviewerName": "blogby_aws",
         "ratingDate": "Reviewed December 20, 2019",
@@ -16059,9 +16175,10 @@
   {
     "name": "Cafe Chuski",
     "image": "https://media-cdn.tripadvisor.com/media/photo-i/15/af/8c/c3/tribute.jpg",
-    "rating": "3 of 5 bubbles",
+    "rating": "3 ",
     "address": "MM Alam Road, Hussain Chowk Gulberg III 58-B/3 Hussain Chowk Gulberg III",
-    "reviews":[
+    "cuisines": "Middle Eastern, Pakistani",
+    "reviews": [
       {
         "reviewerName": "mariajabeen",
         "ratingDate": "Reviewed April 5, 2019",
@@ -16072,9 +16189,9 @@
   },
   {
     "name": "Bistro",
-    "rating": "4 of 5 bubbles",
+    "rating": "4 ",
     "address": "Mian Mehmood Ali Kasoori Rd The Nishat Hotel",
-    "reviews":[
+    "reviews": [
       {
         "reviewerName": "dr_usmanm",
         "ratingDate": "Reviewed September 10, 2019",
@@ -16085,9 +16202,10 @@
   },
   {
     "name": "MariBelle",
-    "rating": "4 of 5 bubbles",
+    "rating": "4 ",
     "address": "94-D Mall 1, Main Boulevard",
-    "reviews":[
+    "cuisines": "Cafe, French, British, Contemporary, Healthy",
+    "reviews": [
       {
         "reviewerName": "rana_irfan82",
         "ratingDate": "Reviewed January 19, 2020",
@@ -16099,9 +16217,10 @@
   {
     "name": "New York Coffee",
     "image": "https://media-cdn.tripadvisor.com/media/photo-i/19/98/72/ae/10.jpg",
-    "rating": "4 of 5 bubbles",
+    "rating": "4 ",
     "address": "Walton Road Level 2 , Packages Mall",
-    "reviews":[
+    "cuisines": "Cafe, Bar, Asian, Pub, Eastern European, Armenian, Central Asian",
+    "reviews": [
       {
         "reviewerName": "blogby_aws",
         "ratingDate": "Reviewed October 11, 2019",
@@ -16112,9 +16231,10 @@
   },
   {
     "name": "Cafe Costa",
-    "rating": "3 of 5 bubbles",
+    "rating": "3 ",
     "address": "56b3 Mian Mehmood Ali Kasuri Rd Near Hussain Chowk, Block B3, Gulberg III",
-    "reviews":[
+    "cuisines": "Cafe, Italian, Chinese, Asian",
+    "reviews": [
       {
         "reviewerName": "sabaibbi",
         "ratingDate": "Reviewed May 31, 2019",
@@ -16126,9 +16246,10 @@
   {
     "name": "Bagh - The Desi Experience",
     "image": "https://media-cdn.tripadvisor.com/media/photo-i/18/57/25/f4/bagh-the-desi-experience.jpg",
-    "rating": "3 of 5 bubbles",
+    "rating": "3 ",
     "address": "Off MM Alam Rd Block B2 Park",
-    "reviews":[
+    "cuisines": "Indian, Grill, Middle Eastern, Pakistani",
+    "reviews": [
       {
         "reviewerName": "SOQ2010",
         "ratingDate": "Reviewed January 22, 2022",
@@ -16176,9 +16297,9 @@
   {
     "name": "Nadeem Tikka",
     "image": "https://media-cdn.tripadvisor.com/media/photo-i/1b/d6/16/02/fb-img-1598108104637.jpg",
-    "rating": "3 of 5 bubbles",
+    "rating": "3 ",
     "address": "226-A3 7up Factory Opposite City School",
-    "reviews":[
+    "reviews": [
       {
         "reviewerName": "Siki-Bhai",
         "ratingDate": "Reviewed November 15, 2022",
@@ -16220,9 +16341,10 @@
   {
     "name": "Simply Sufi XPRS",
     "image": "https://media-cdn.tripadvisor.com/media/photo-i/13/a4/08/72/a-premium-quality-quick.jpg",
-    "rating": "3 of 5 bubbles",
+    "rating": "3 ",
     "address": "2nd Floor, Food Court, Packages Mall Shahra-e-Rumi, Lahore",
-    "reviews":[
+    "cuisines": "Fast Food",
+    "reviews": [
       {
         "reviewerName": "Mninshaikh",
         "ratingDate": "Reviewed May 27, 2022",
@@ -16252,9 +16374,10 @@
   {
     "name": "Mozzarella 27",
     "image": "https://media-cdn.tripadvisor.com/media/photo-i/16/d5/6a/8c/photo0jpg.jpg",
-    "rating": "3 of 5 bubbles",
+    "rating": "3 ",
     "address": "40 A Mian Mehmood Ali Kasoori Rd",
-    "reviews":[
+    "cuisines": "Pizza",
+    "reviews": [
       {
         "reviewerName": "Sajix",
         "ratingDate": "Reviewed May 30, 2020",
@@ -16290,9 +16413,9 @@
   {
     "name": "Villa The Grand Buffet",
     "image": "https://media-cdn.tripadvisor.com/media/photo-i/21/dc/75/5f/villa-the-grand-buffet.jpg",
-    "rating": "2.5 of 5 bubbles",
+    "rating": "2.5 ",
     "address": "67 MM Alam Rd, Block B1 Right Next To Wasabi Gulberg",
-    "reviews":[
+    "reviews": [
       {
         "reviewerName": "Safari486610",
         "ratingDate": "Reviewed January 17, 2023",
@@ -16315,9 +16438,10 @@
   },
   {
     "name": "Domino's Pizza",
-    "rating": "3 of 5 bubbles",
+    "rating": "3 ",
     "address": "Blue Mall, Near Mini Market, MM Alam Rd",
-    "reviews":[
+    "cuisines": "Pizza",
+    "reviews": [
       {
         "reviewerName": "mussadaquerafiqueb",
         "ratingDate": "Reviewed November 18, 2022",
@@ -16377,9 +16501,10 @@
   {
     "name": "Bombay Chowpatty",
     "image": "https://media-cdn.tripadvisor.com/media/photo-s/0a/96/aa/66/food.jpg",
-    "rating": "3.5 of 5 bubbles",
+    "rating": "3.5 ",
     "address": "28 C/2 GUlberg III",
-    "reviews":[
+    "cuisines": "Indian, Pakistani, Fast Food, Middle Eastern",
+    "reviews": [
       {
         "reviewerName": "288greenp",
         "ratingDate": "Reviewed August 21, 2022",
@@ -16565,9 +16690,10 @@
   {
     "name": "Fatburger",
     "image": "https://media-cdn.tripadvisor.com/media/photo-i/16/dd/5f/46/img20181208172022-01.jpg",
-    "rating": "4 of 5 bubbles",
+    "rating": "4 ",
     "address": "19, Lahore, G.E.C.H.S. Phase 2 Muhammadpura",
-    "reviews":[
+    "cuisines": "Diner",
+    "reviews": [
       {
         "reviewerName": "Aroobamasood",
         "ratingDate": "Reviewed March 18, 2019",
@@ -16579,7 +16705,8 @@
   {
     "name": "Guftagu Cafe",
     "address": "879 R1 Johar Town",
-    "reviews":[
+    "cuisines": "Cafe",
+    "reviews": [
       {
         "reviewerName": "535syedmuhammadr",
         "ratingDate": "Reviewed June 27, 2021",
@@ -16665,5 +16792,5 @@
         "reviewText": "Maybe I'm not a fan of coffee or what. I somehow found it average with what I ordered. I usually ask to \"bring me your best seller or your most recommended or make it unforgettable night\" but somehow it didn't work to my satisfaction. Everyone...else accompanying me was happy anyway :)More"
       }
     ]
-  } 
+  }
 ]

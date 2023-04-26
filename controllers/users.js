@@ -5,7 +5,7 @@ const User = require("../models/User");
 
 exports.login = async (req, res) => {
   const { username, password } = req.body;
-  console.log({ username, password });
+  // console.log({ username, password });
   try {
     const existingUser = await User.findOne({ username });
 
@@ -23,7 +23,7 @@ exports.login = async (req, res) => {
         id: existingUser._id,
       },
       process.env.JWT_SECRET,
-      { expiresIn: "360d" }
+      { expiresIn: "3d" }
     );
 
     res.status(200).json({ token: token });
@@ -55,7 +55,7 @@ exports.register = async (req, res) => {
         { email: user.email, username: user.username, id: user._id },
         process.env.JWT_SECRET,
         {
-          expiresIn: "360d",
+          expiresIn: "3d",
         }
       );
       res.status(200).json({ token: token });
@@ -66,12 +66,17 @@ exports.register = async (req, res) => {
 };
 
 exports.getProfile = async (req, res) => {
+  // console.log({ ...req.body });
   try {
-    var user = await User.getById(req.token.id);
+    const id = req.params.id;
+    console.log(id);
+    var user = await User.findById(id);
+    // console.log(user);
     if (!user) return res.json({ error: "User is not registered" });
-    res.status(200).json({ user: user });
+    res.status(200).json(user);
   } catch (e) {
     res.json({ error: e.message });
+    console.log("error");
   }
 };
 

@@ -14,7 +14,7 @@ router.post("/register", register);
 router.post("/login", login);
 router.post("/", createUser);
 router.get("/", getUsers);
-router.get("/profile", requireSignin, getProfile);
+router.get("/profile:id", getProfile);
 router.delete("/:id", deleteUser);
 
 module.exports = router;
