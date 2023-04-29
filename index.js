@@ -3,6 +3,7 @@ const mongoose = require("mongoose");
 const cors = require("cors");
 const path = require("path");
 const env = require("dotenv");
+const router = express.Router();
 
 const userRoutes = require("./routes/users");
 const brandsRoutes = require("./routes/brands");
