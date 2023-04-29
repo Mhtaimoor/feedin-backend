@@ -1,8 +1,7 @@
 {
   "functions": {
-    "api/**/*.js": {
-      "runtime": "vercel-node@latest",
-      "memory": 1024
+    "api/my-function.php": {
+      "runtime": "now-php@1.0.0"
     }
   },
   "routes": [
