@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "name": "feedinn-backend",
+  "name": "feedin-backend",
   "builds": [{ "src": "index.js", "use": "@versel/node" }],
   "routes": [{ "src": "/(.*)", "dest": "/index.js" }]
 }
