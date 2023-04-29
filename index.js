@@ -9,6 +9,7 @@ const userRoutes = require("./routes/users");
 const brandsRoutes = require("./routes/brands");
 
 env.config();
+
 const app = express();
 app.listen(
   process.env.PORT,
