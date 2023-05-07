@@ -2,6 +2,7 @@ const jwt = require("jsonwebtoken");
 const mongoose = require("mongoose");
 const bcrypt = require("bcrypt");
 const User = require("../models/User");
+const Base_URL = "http://localhost:8080";
 
 exports.login = async (req, res) => {
   const { username, password } = req.body;
@@ -108,12 +109,39 @@ exports.createUser = async (req, res) => {
 };
 
 exports.updateUser = async (req, res) => {
-  const id = req.params.id;
-  const user = req.body;
-  if (!mongoose.Types.ObjectId.isValid(id))
-    return res.status(404).send("No user with  that id");
-  const updateUser = await User.findByIdAndUpdate(id, user, { new: true });
-  res.status(200).json(updateUser);
+  let { name, username, email } = req.body;
+  let editImage = req.file?.filename;
+  let editData = {
+    name,
+    username,
+    email,
+  };
+  if (editImage) {
+    editData.image = `${Base_URL}/uploads/users/${editImage}`;
+    const existingUserName = await User.findOne({
+      username: editData.username,
+    });
+    if (existingUserName) {
+      res.status(400).send("Username Exists");
+    } else {
+      console.log(editData);
+      const user = await User.findByIdAndUpdate(req.params.id, editData);
+      console.log("success");
+      res.status(200).json({ user, editImage });
+    }
+  } else {
+    const existingUserName = await User.findOne({
+      username: editData.username,
+    });
+    if (existingUserName) {
+      res.status(400).send("Username Exists");
+    } else {
+      // console.log(editData);
+      const user = await User.findByIdAndUpdate(req.params.id, editData);
+      console.log("success");
+      res.status(200).json(user);
+    }
+  }
 };
 
 exports.deleteUser = async (req, res) => {
