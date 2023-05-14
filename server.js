@@ -7,6 +7,7 @@ const env = require("dotenv");
 
 const userRoutes = require("./routes/users");
 const brandsRoutes = require("./routes/brands");
+const reviewRoutes = require("./routes/reviews");
 
 env.config();
 
@@ -19,6 +20,7 @@ app.use(express.urlencoded({ extended: true }));
 // app.use("/public", express.static(path.join(__dirname, "uploads")));
 app.use("/users", userRoutes);
 app.use("/brands", brandsRoutes);
+app.use("/reviews", reviewRoutes);
 
 app.get("/", (req, res) => {
   res.send("<h1>Hello to FeedInn API</h1>");

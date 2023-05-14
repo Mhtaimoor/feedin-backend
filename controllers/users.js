@@ -2,7 +2,6 @@ const jwt = require("jsonwebtoken");
 const mongoose = require("mongoose");
 const bcrypt = require("bcrypt");
 const User = require("../models/User");
-const Base_URL = "http://localhost:8080";
 
 exports.login = async (req, res) => {
   const { username, password } = req.body;
@@ -117,13 +116,13 @@ exports.updateUser = async (req, res) => {
     email,
   };
   if (editImage) {
-    editData.image = `${Base_URL}/uploads/users/${editImage}`;
     const existingUserName = await User.findOne({
       username: editData.username,
     });
     if (existingUserName) {
       res.status(400).send("Username Exists");
     } else {
+      editData = { ...editData, image: editImage };
       console.log(editData);
       const user = await User.findByIdAndUpdate(req.params.id, editData);
       console.log("success");

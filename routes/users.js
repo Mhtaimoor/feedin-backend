@@ -10,6 +10,7 @@ const {
   updateUser,
 } = require("../controllers/users");
 const { requireSignin } = require("../middlewares/auth.js");
+const Base_URL = require("../config");
 
 const storage = multer.diskStorage({
   destination: function (req, file, cb) {
@@ -25,7 +26,7 @@ const upload = multer({ storage: storage });
 
 router.post("/upload", upload.single("file"), (req, res) => {
   console.log("starting upload...", req.file);
-  res.json(`${Base_URL}/users/` + req.file?.filename);
+  res.json(`${Base_URL}users/` + req.file?.filename);
 });
 
 router.post("/register", register);

@@ -28,7 +28,7 @@ router.post("/upload", upload.single("file"), (req, res) => {
 
   res.json(`${Base_URL}public/posts/` + req.file.filename);
 });
-router.post("/", upload.single("image"), createReview);
+router.post("/:name", createReview);
 router.get("/", getReviews);
 router.get("/:id", getReview);
 router.put("/:id", upload.single("editImage"), updateReview);

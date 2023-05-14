@@ -3,9 +3,14 @@ const Schema = mongoose.Schema;
 
 const reviewsSchema = new Schema(
   {
-    brandsId: { type: mongoose.Types.ObjectId, required: true, ref: "brands" },
-    review: { type: String, required: true },
-    image: {type: String}
+    userId: { type: mongoose.Types.ObjectId, required: true, ref: "users" },
+    brandName: { type: String, required: true },
+    reviewerName: { type: String, required: true },
+    ratingDate: { type: Date, required: true },
+    reviewHeading: { type: String, required: true },
+    reviewText: { type: String, required: true },
+    reviewerEat: { type: String, required: true },
+    goesWith: { type: String, required: true },
   },
   { timestamps: true }
 );
