@@ -25,10 +25,7 @@ app.use("/reviews", reviewRoutes);
 app.get("/", (req, res) => {
   res.send("<h1>Hello to FeedInn API</h1>");
 });
-app.listen(
-  process.env.PORT,
-  console.log(`Server running on port: ${process.env.PORT}`)
-);
+app.listen(8080, console.log(`Server running on port: 8080`));
 mongoose.connect(
   process.env.MONGODB_CONNECTION_STRING,
   {
