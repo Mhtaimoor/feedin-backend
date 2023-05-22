@@ -4,7 +4,7 @@ const Schema = mongoose.Schema;
 const reviewsSchema = new Schema(
   {
     userId: { type: mongoose.Types.ObjectId, required: true, ref: "users" },
-    brandName: { type: String, required: true },
+    restaurantName: { type: String, required: true },
     reviewerName: { type: String, required: true },
     ratingDate: { type: Date, required: true },
     reviewHeading: { type: String, required: true },

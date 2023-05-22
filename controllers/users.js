@@ -5,7 +5,7 @@ const User = require("../models/User");
 
 exports.login = async (req, res) => {
   const { username, password } = req.body;
-  // console.log({ username, password });
+  console.log({ username, password });
   try {
     const existingUser = await User.findOne({ username });
 
@@ -17,7 +17,7 @@ exports.login = async (req, res) => {
     );
     if (!existingPassword)
       return res.status(400).json({ message: "Invalid password" });
-    const token = jwt.sign(
+    const userToken = jwt.sign(
       {
         username: existingUser.username,
         id: existingUser._id,
@@ -26,7 +26,7 @@ exports.login = async (req, res) => {
       { expiresIn: "3d" }
     );
 
-    res.status(200).json({ token: token });
+    res.status(200).json({ userToken: userToken });
   } catch (error) {
     res.status(404).json({ message: error.message });
   }
@@ -51,15 +51,92 @@ exports.register = async (req, res) => {
       let salt = await bcrypt.genSalt(10);
       userData.password = await bcrypt.hash(userData.password, salt);
       const user = await User.create(userData);
-      const token = jwt.sign(
+      const userToken = jwt.sign(
         { email: user.email, username: user.username, id: user._id },
         process.env.JWT_SECRET,
         {
           expiresIn: "3d",
         }
       );
-      res.status(200).json({ token: token });
+      res.status(200).json({ userToken: userToken });
     }
+  } catch (error) {
+    res.status(404).json({ message: error.message });
+  }
+};
+
+exports.vendorLogin = async (req, res) => {
+  try {
+    const { brandName, password } = req.body;
+    console.log(req.body);
+
+    const brand = await User.findOne({ brandName });
+    console.log(brand);
+
+    if (!brand) {
+      return res.status(401).json({ message: "Invalid brandName or password" });
+    }
+
+    const isPasswordValid = await bcrypt.compare(password, brand.password);
+
+    if (!isPasswordValid) {
+      return res.status(401).json({ message: "Invalid brandName or password" });
+    }
+
+    const token = jwt.sign(
+      {
+        email: brand.email,
+        username: brand.username,
+        id: brand._id,
+        name: brand.name,
+        brandName: brand.brandName,
+      },
+      process.env.JWT_SECRET,
+      { expiresIn: "3d" }
+    );
+
+    res.status(200).json({ token });
+  } catch (error) {
+    res.status(500).json({ message: "Login failed" });
+  }
+};
+
+exports.registerVendor = async (req, res) => {
+  try {
+    const { brandName, username, password, name, email } = req.body;
+
+    const existingUser = await User.findOne({ username });
+    if (existingUser) {
+      return res
+        .status(401)
+        .json({ message: "User with this username already exists!" });
+    }
+
+    const userData = {
+      brandName,
+      name,
+      email,
+      username,
+      password,
+    };
+
+    let salt = await bcrypt.genSalt(10);
+    userData.password = await bcrypt.hash(userData.password, salt);
+
+    const user = await User.create(userData);
+
+    const token = jwt.sign(
+      {
+        email: user.email,
+        username: user.username,
+        name: user.name,
+        brandName: user.brandName,
+      },
+      process.env.JWT_SECRET,
+      { expiresIn: "3d" }
+    );
+
+    res.status(200).json({ token, user });
   } catch (error) {
     res.status(404).json({ message: error.message });
   }

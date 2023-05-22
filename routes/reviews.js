@@ -3,8 +3,7 @@ var multer = require("multer");
 const { Base_URL } = require("../config");
 
 const {
-  getReviews,
-  getReview,
+  getReviewsByUserId,
   createReview,
   updateReview,
   deleteReview,
@@ -29,8 +28,7 @@ router.post("/upload", upload.single("file"), (req, res) => {
   res.json(`${Base_URL}public/posts/` + req.file.filename);
 });
 router.post("/:name", createReview);
-router.get("/", getReviews);
-router.get("/:id", getReview);
+router.get("/:id", getReviewsByUserId);
 router.put("/:id", upload.single("editImage"), updateReview);
 
 router.delete("/:id", deleteReview);

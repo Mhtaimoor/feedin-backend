@@ -5,6 +5,8 @@ const {
   getUsers,
   register,
   login,
+  registerVendor,
+  vendorLogin,
   deleteUser,
   getProfile,
   updateUser,
@@ -31,6 +33,8 @@ router.post("/upload", upload.single("file"), (req, res) => {
 
 router.post("/register", register);
 router.post("/login", login);
+router.post("/venderRegister", registerVendor);
+router.post("/venderLogin", vendorLogin);
 router.post("/", createUser);
 router.put("/:id", upload.single("editImage"), updateUser);
 router.get("/", getUsers);

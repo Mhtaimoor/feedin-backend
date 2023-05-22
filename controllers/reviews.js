@@ -3,64 +3,88 @@ const Reviews = require("../models/Reviews");
 const fs = require("fs");
 const Restaurant = require("../restaurants.json");
 
-exports.getReviews = async (req, res) => {
-  try {
-    const reviews = await Reviews.find();
-    res.status(200).json(reviews);
-  } catch (error) {
-    res.status(404).json({ message: error.message });
-  }
-};
-
-exports.getReview = async (req, res) => {
-  const id = req.params.id;
-  try {
-    const review = await Reviews.findById(id);
-    res.status(200).json(review);
-  } catch (error) {
-    res.status(404).json({ message: error.message });
-  }
-};
-
 exports.createReview = async (req, res) => {
-  const { reviewerName, ratingDate, reviewHeading, reviewText } = req.body;
+  console.log(req.body);
+  const {
+    reviewerName,
+    ratingDate,
+    reviewHeading,
+    reviewText,
+    userId,
+    reviewerEat,
+    goesWith,
+  } = req.body;
   const restaurantName = req.params.name;
+  console.log(restaurantName);
 
-  fs.readFile("restaurants.json", "utf8", (err, data) => {
-    if (err) {
-      console.error(err);
-      return res.status(500).json({ message: "Server error" });
-    }
-
-    const restaurants = JSON.parse(data);
-    const restaurantIndex = restaurants.findIndex(
-      (r) => r.name === restaurantName
-    );
-
-    if (restaurantIndex === -1) {
-      return res.status(404).json({ message: "Restaurant not found" });
-    }
-
-    const newReview = {
+  try {
+    const newReviewData = {
       reviewerName,
       ratingDate,
       reviewHeading,
       reviewText,
+      userId,
+      reviewerEat,
+      goesWith,
+      restaurantName,
     };
+    const newData = await Reviews.create(newReviewData);
 
-    restaurants[restaurantIndex].reviews.push(newReview);
-
-    fs.writeFile("restaurants.json", JSON.stringify(restaurants), (err) => {
+    fs.readFile("restaurants.json", "utf8", (err, data) => {
       if (err) {
         console.error(err);
         return res.status(500).json({ message: "Server error" });
       }
 
-      res
-        .status(201)
-        .json({ message: "Review added successfully", review: newReview });
+      const restaurants = JSON.parse(data);
+      const restaurantIndex = restaurants.findIndex(
+        (r) => r.name === restaurantName
+      );
+
+      if (restaurantIndex === -1) {
+        return res.status(404).json({ message: "Restaurant not found" });
+      }
+
+      const newReview = {
+        reviewerName,
+        ratingDate,
+        reviewHeading,
+        reviewText,
+      };
+
+      restaurants[restaurantIndex].reviews.push(newReview);
+
+      fs.writeFile("restaurants.json", JSON.stringify(restaurants), (err) => {
+        if (err) {
+          console.error(err);
+          return res.status(500).json({ message: "Server error" });
+        }
+
+        res
+          .status(201)
+          .json({ message: "Review added successfully", review: newData });
+      });
     });
-  });
+  } catch (err) {
+    console.error(err);
+    res.status(500).json({ message: "Server error" });
+  }
+};
+
+exports.getReviewsByUserId = async (req, res) => {
+  const userId = req.params;
+  // console.log(userId);
+
+  try {
+    const reviews = await Reviews.find({
+      userId: new mongoose.Types.ObjectId(userId),
+    });
+    // console.log(reviews);
+    res.status(200).json(reviews);
+  } catch (err) {
+    console.error(err);
+    res.status(500).json({ message: "Server error" });
+  }
 };
 
 exports.updateReview = async (req, res) => {
