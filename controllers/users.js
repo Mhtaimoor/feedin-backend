@@ -1,6 +1,6 @@
 const jwt = require("jsonwebtoken");
 const mongoose = require("mongoose");
-const bcrypt = require("bcrypt");
+// const bcrypt = require("bcrypt");
 const User = require("../models/User");
 
 exports.login = async (req, res) => {
@@ -11,12 +11,12 @@ exports.login = async (req, res) => {
 
     if (!existingUser)
       return res.status(400).json({ message: "User doesn't exist" });
-    const existingPassword = await bcrypt.compare(
-      password,
-      existingUser.password
-    );
-    if (!existingPassword)
-      return res.status(400).json({ message: "Invalid password" });
+    // const existingPassword = await bcrypt.compare(
+    //   password,
+    //   existingUser.password
+    // );
+    // if (!existingPassword)
+    //   return res.status(400).json({ message: "Invalid password" });
     const userToken = jwt.sign(
       {
         username: existingUser.username,
@@ -48,8 +48,8 @@ exports.register = async (req, res) => {
         .status(401)
         .json({ message: "User with this email already exists!" });
     else {
-      let salt = await bcrypt.genSalt(10);
-      userData.password = await bcrypt.hash(userData.password, salt);
+      // let salt = await bcrypt.genSalt(10);
+      // userData.password = await bcrypt.hash(userData.password, salt);
       const user = await User.create(userData);
       const userToken = jwt.sign(
         { email: user.email, username: user.username, id: user._id },
@@ -77,7 +77,7 @@ exports.vendorLogin = async (req, res) => {
       return res.status(401).json({ message: "Invalid brandName or password" });
     }
 
-    const isPasswordValid = await bcrypt.compare(password, brand.password);
+    // const isPasswordValid = await bcrypt.compare(password, brand.password);
 
     if (!isPasswordValid) {
       return res.status(401).json({ message: "Invalid brandName or password" });
@@ -120,8 +120,8 @@ exports.registerVendor = async (req, res) => {
       password,
     };
 
-    let salt = await bcrypt.genSalt(10);
-    userData.password = await bcrypt.hash(userData.password, salt);
+    // let salt = await bcrypt.genSalt(10);
+    // userData.password = await bcrypt.hash(userData.password, salt);
 
     const user = await User.create(userData);
 
@@ -175,7 +175,7 @@ exports.createUser = async (req, res) => {
     if (existingUser)
       return res.status(201).json({ message: "Email already exists." });
 
-    const hashPassword = await bcrypt.hash(password, 10);
+    // const hashPassword = await bcrypt.hash(password, 10);
     const newUser = new User({ ...user, password: hashPassword });
     await newUser.save();
     res.status(200).json(newUser);
