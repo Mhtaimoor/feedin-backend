@@ -48,8 +48,8 @@ exports.register = async (req, res) => {
         .status(401)
         .json({ message: "User with this email already exists!" });
     else {
-      // let salt = await bcrypt.genSalt(10);
-      // userData.password = await bcrypt.hash(userData.password, salt);
+      let salt = await bcrypt.genSalt(10);
+      userData.password = await bcrypt.hash(userData.password, salt);
       const user = await User.create(userData);
       const userToken = jwt.sign(
         { email: user.email, username: user.username, id: user._id },
