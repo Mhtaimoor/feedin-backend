@@ -77,7 +77,7 @@ exports.vendorLogin = async (req, res) => {
       return res.status(401).json({ message: "Invalid brandName or password" });
     }
 
-    // const isPasswordValid = await bcrypt.compare(password, brand.password);
+    const isPasswordValid = await bcrypt.compare(password, brand.password);
 
     if (!isPasswordValid) {
       return res.status(401).json({ message: "Invalid brandName or password" });
