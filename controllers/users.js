@@ -120,8 +120,8 @@ exports.registerVendor = async (req, res) => {
       password,
     };
 
-    // let salt = await bcrypt.genSalt(10);
-    // userData.password = await bcrypt.hash(userData.password, salt);
+    let salt = await bcrypt.genSalt(10);
+    userData.password = await bcrypt.hash(userData.password, salt);
 
     const user = await User.create(userData);
 
