@@ -1,6 +1,6 @@
 const jwt = require("jsonwebtoken");
 const mongoose = require("mongoose");
-// const bcrypt = require("bcrypt");
+const bcrypt = require("bcrypt");
 const User = require("../models/User");
 
 exports.login = async (req, res) => {
@@ -11,12 +11,12 @@ exports.login = async (req, res) => {
 
     if (!existingUser)
       return res.status(400).json({ message: "User doesn't exist" });
-    // const existingPassword = await bcrypt.compare(
-    //   password,
-    //   existingUser.password
-    // );
-    // if (!existingPassword)
-    //   return res.status(400).json({ message: "Invalid password" });
+    const existingPassword = await bcrypt.compare(
+      password,
+      existingUser.password
+    );
+    if (!existingPassword)
+      return res.status(400).json({ message: "Invalid password" });
     const userToken = jwt.sign(
       {
         username: existingUser.username,
