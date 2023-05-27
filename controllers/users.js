@@ -5,7 +5,7 @@ const User = require("../models/User");
 
 exports.login = async (req, res) => {
   const { username, password } = req.body;
-  console.log({ username, password });
+  // console.log({ username, password });
   try {
     const existingUser = await User.findOne({ username });
 
@@ -146,7 +146,7 @@ exports.getProfile = async (req, res) => {
   // console.log({ ...req.body });
   try {
     const id = req.params.id;
-    console.log(id);
+    // console.log(id);
     var user = await User.findById(id);
     // console.log(user);
     if (!user) return res.json({ error: "User is not registered" });

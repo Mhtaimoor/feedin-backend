@@ -1,5 +1,6 @@
 const express = require("express");
 const multer = require("multer");
+const path = require("path");
 const {
   createUser,
   getUsers,
@@ -26,17 +27,21 @@ const storage = multer.diskStorage({
 const router = express.Router();
 const upload = multer({ storage: storage });
 
+router.use("/uploads", express.static(path.join(__dirname, "../uploads")));
+
 router.post("/upload", upload.single("file"), (req, res) => {
   console.log("starting upload...", req.file);
-  res.json(`${Base_URL}users/` + req.file?.filename);
+  res.json(`${Base_URL}/users/` + req.file?.filename);
 });
+
+router.put("/:id", upload.single("editImage"), updateUser);
 
 router.post("/register", register);
 router.post("/login", login);
 router.post("/venderRegister", registerVendor);
 router.post("/venderLogin", vendorLogin);
 router.post("/", createUser);
-router.put("/:id", upload.single("editImage"), updateUser);
+
 router.get("/", getUsers);
 router.get("/profile/:id", getProfile);
 router.delete("/:id", deleteUser);

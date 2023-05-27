@@ -8,6 +8,7 @@ const env = require("dotenv");
 const userRoutes = require("./routes/users");
 const brandsRoutes = require("./routes/brands");
 const reviewRoutes = require("./routes/reviews");
+const rewardRoutes = require("./routes/rewards");
 
 env.config();
 
@@ -21,6 +22,7 @@ app.use(express.urlencoded({ extended: true }));
 app.use("/users", userRoutes);
 app.use("/brands", brandsRoutes);
 app.use("/reviews", reviewRoutes);
+app.use("/rewards", rewardRoutes);
 
 app.get("/", (req, res) => {
   res.send("<h1>Hello to FeedInn API</h1>");

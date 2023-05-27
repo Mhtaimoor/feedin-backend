@@ -50,7 +50,14 @@ exports.createReview = async (req, res) => {
         ratingDate,
         reviewHeading,
         reviewText,
+        reviewerEat,
+        goesWith,
+        restaurantName,
       };
+
+      // Initialize reviews array if it doesn't exist
+      restaurants[restaurantIndex].reviews =
+        restaurants[restaurantIndex].reviews || [];
 
       restaurants[restaurantIndex].reviews.push(newReview);
 
