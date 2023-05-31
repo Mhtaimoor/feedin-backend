@@ -1,7 +1,11 @@
 const express = require("express");
 const multer = require("multer");
 const fs = require("fs");
-const { getAllBrands, getSingleBrand } = require("../controllers/brands");
+const {
+  getAllBrands,
+  getSingleBrand,
+  addBrand,
+} = require("../controllers/brands");
 const { requireSignin } = require("../middlewares/auth.js");
 const router = express.Router();
 
@@ -35,7 +39,7 @@ const storage = multer.diskStorage({
 
 const upload = multer({ storage: storage });
 
-// router.post("/", upload.single("image"), createCategory);
+router.post("/", addBrand);
 router.get("/", getAllBrands);
 router.get("/:name", getSingleBrand);
 // router.delete("/:id", deleteCategory);

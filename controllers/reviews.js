@@ -8,6 +8,7 @@ exports.createReview = async (req, res) => {
   const {
     reviewerName,
     ratingDate,
+    rating,
     reviewHeading,
     reviewText,
     userId,
@@ -24,6 +25,7 @@ exports.createReview = async (req, res) => {
       reviewHeading,
       reviewText,
       userId,
+      rating,
       reviewerEat,
       goesWith,
       restaurantName,
@@ -50,6 +52,7 @@ exports.createReview = async (req, res) => {
         ratingDate,
         reviewHeading,
         reviewText,
+        rating,
         reviewerEat,
         goesWith,
         restaurantName,
