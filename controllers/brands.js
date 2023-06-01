@@ -10,13 +10,14 @@ exports.getAllBrands = async (req, res, next) => {
 };
 
 exports.getSingleBrand = async (req, res) => {
-  // console.log(req.params.name);
+  console.log(req.params.name);
   try {
     let name = req.params.name;
     let brand = Brands.find((brand) => brand.name == name);
+    // console.log(brand);
     res.status(200).json(brand);
   } catch (error) {
-    res.status(404).json({ message: error.message });
+    res.status(404).json({ message: error.message }, "Error: ");
   }
 };
 exports.addBrand = async (req, res) => {
