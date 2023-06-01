@@ -216,8 +216,8 @@
     "address": "244 25, Near Emporium Mall Block L Phase 2 Johar Town,",
     "cuisines": "Chinese, fastFood, International, Asian, middleEastern",
     "menu": {
-      "image1": "https://scontent.flhe11-1.fna.fbcdn.net/v/t39.30808-6/282302707_724177489015716_6058770235204751580_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=c4c01c&_nc_eui2=AeHzMR9zFRZjv5R6R2YdP98rPOopXI1J8ok86ilcjUnyibQYi-Y_pdjujOjGdbd08f6PsDrW5a6jMJi7RdapeFCW&_nc_ohc=q77Tkji3dWYAX-Otxpm&_nc_ht=scontent.flhe11-1.fna&oh=00_AfDm4OXiqZh23PWWOINBtCgFB5blPRq0mMVovWc8IoTKjg&oe=646A38CB",
-      "image2": "https://scontent.flhe11-1.fna.fbcdn.net/v/t39.30808-6/273842408_664517401648392_9034267076550016900_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=c4c01c&_nc_eui2=AeEb0zSe8O1xC5tc8uPoRHZ_E4tEqEcZiXwTi0SoRxmJfG5N4PL2C2gKiX7CwioM4dZf4taoW75Gq2g1RyeIl695&_nc_ohc=epscaVM-YWsAX9C5CBC&_nc_ht=scontent.flhe11-1.fna&oh=00_AfC_ndxPnrL72vEMSQ3yBT86IUIkr9I7V_zY4DSZ-U_uzQ&oe=646AA2DA"
+      "image1": "https://scontent.flhe11-1.fna.fbcdn.net/v/t39.30808-6/274287055_664517168315082_5653263693264491489_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=c4c01c&_nc_eui2=AeED03d5P9oCvUnDkVjzkv-A4Sd8G7oAMVfhJ3wbugAxVxJgql7DDUZkQEkd_LLDziDcNtgBLgsyFyyQ92juLCiG&_nc_ohc=2GCzuiEnwBUAX8zz6Df&_nc_ht=scontent.flhe11-1.fna&oh=00_AfCLL9CxlFp234fdxR1vpqwiGXROaMhZlNFXCJ_bzPmEHg&oe=647CA194",
+      "image2": "https://scontent.flhe11-1.fna.fbcdn.net/v/t39.30808-6/282302707_724177489015716_6058770235204751580_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=c4c01c&_nc_eui2=AeERpM3iFYfC2DvfhnUPStu0POopXI1J8ok86ilcjUnyiZN63Qcgub0KXcHp8AYUqdBSj4XSHOpa_9bGRKgvdn5X&_nc_ohc=8bQx77sGBm4AX_ZiA7M&_nc_ht=scontent.flhe11-1.fna&oh=00_AfDaGX0DfDqw95LKnV4UuLmX_MBPFzriHzyEb1gqATK2Jw&oe=647DFF4B"
     },
     "reviews": [
       {
@@ -633,6 +633,7 @@
   {
     "name": "Simply Sufi",
     "address": "Abdul Haque Rd Food Court, Emporium Mall",
+    "cuisines": "Italian, fastFood",
     "reviews": []
   },
   {
