@@ -6,28 +6,28 @@ const Restaurant = require("../restaurants.json");
 exports.createReview = async (req, res) => {
   console.log(req.body);
   const {
+    userId,
     reviewerName,
     ratingDate,
-    rating,
     reviewHeading,
     reviewText,
-    userId,
     reviewerEat,
     goesWith,
+    rating,
   } = req.body;
   const restaurantName = req.params.name;
   console.log(restaurantName);
 
   try {
     const newReviewData = {
+      userId,
       reviewerName,
       ratingDate,
       reviewHeading,
       reviewText,
-      userId,
-      rating,
       reviewerEat,
       goesWith,
+      rating,
       restaurantName,
     };
     const newData = await Reviews.create(newReviewData);
@@ -48,14 +48,14 @@ exports.createReview = async (req, res) => {
       }
 
       const newReview = {
+        userId,
         reviewerName,
         ratingDate,
         reviewHeading,
         reviewText,
-        rating,
         reviewerEat,
         goesWith,
-        restaurantName,
+        rating,
       };
 
       // Initialize reviews array if it doesn't exist

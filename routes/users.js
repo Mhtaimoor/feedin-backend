@@ -14,6 +14,7 @@ const {
 } = require("../controllers/users");
 const { requireSignin } = require("../middlewares/auth.js");
 const Base_URL = require("../config");
+const router = express.Router();
 
 const storage = multer.diskStorage({
   destination: function (req, file, cb) {
@@ -24,14 +25,11 @@ const storage = multer.diskStorage({
   },
 });
 
-const router = express.Router();
 const upload = multer({ storage: storage });
-
-router.use("/uploads", express.static(path.join(__dirname, "../uploads")));
 
 router.post("/upload", upload.single("file"), (req, res) => {
   console.log("starting upload...", req.file);
-  res.json(`${Base_URL}/users/` + req.file?.filename);
+  res.json(`${Base_URL}public/users/` + req.file?.filename);
 });
 
 router.put("/:id", upload.single("editImage"), updateUser);

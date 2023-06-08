@@ -27,7 +27,7 @@ app.use("/rewards", rewardRoutes);
 app.get("/", (req, res) => {
   res.send("<h1>Hello to FeedInn API</h1>");
 });
-app.listen(8080, console.log(`Server running on port: 8080`));
+app.listen(3000, console.log(`Server running on port: 3000`));
 mongoose.connect(
   process.env.MONGODB_CONNECTION_STRING,
   {
